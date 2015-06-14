@@ -1,7 +1,7 @@
 Package: com.myrepospace.pw5a29ip4.ios9englishfont
 Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
 Filename: debs//com.myrepospace.pw5a29ip4.ios9englishfont_1.0-1.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -16,7 +16,7 @@ Name: iOS 9 English Font
 Package: com.myrepospace.pw5a29ip4.aniweather1
 Version: 2.0-3
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: debs//aniweatherhk_2.0-3.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -31,7 +31,7 @@ Name: AniWeather
 Package: com.myrepospace.pw5a29ip4.bluetickskiller
 Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: debs//btk_1.0-2.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -46,7 +46,7 @@ Name: Blue Ticks Killer
 Package: com.myrepospace.pw5a29ip4.ios9chinesefont
 Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
 Filename: debs//com.myrepospace.pw5a29ip4.ios9chinesefont_1.0-1.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -61,7 +61,7 @@ Name: iOS 9 Chinese Font
 Package: com.myrepospace.pw5a29ip4.whatsappdebug
 Version: 0.0.1-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: debs//com.pw5a29.whatsappdebug_0.0.1-1_iphoneos-arm.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -76,7 +76,7 @@ Name: WhatsApp Debug Enable
 Package: com.myrepospace.pw5a29ip4.ios7betafont
 Version: 2.0-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
 Filename: debs//ios7betafont_2.0-1.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -91,7 +91,7 @@ Name: iOS 7 Beta Font
 Package: com.myrepospace.pw5a29ip4.colorbootlogo
 Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: winterboard
 Filename: debs//ios7Bootlogo_1.0-2.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -106,7 +106,7 @@ Name: Color Bootlogos
 Package: com.myrepospace.pw5a29ip4.livebatteryindicator
 Version: 2.7-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: debs//LBIiOS6_2.7-2.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -121,7 +121,7 @@ Name: Live Battery Indicator iOS 6
 Package: com.myrepospace.pw5a29ip4.livebatteryindicator
 Version: 2.6-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.fortysixandtwo.alkaline
 Filename: debs//livebatteryindicatorios7_2.6-1_iphoneos-arm.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -136,7 +136,7 @@ Name: Live Battery Indicator iOS 8
 Package: com.myrepospace.pw5a29ip4.locationdkiller
 Version: 1.0-6
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: gawk, adv-cmds
 Filename: debs//locationd1.0-6.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -151,7 +151,7 @@ Name: locationd Killer
 Package: com.myrepospace.pw5a29ip4.speedintensifier
 Version: 8.9-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate, preferenceloader
 Filename: debs//speedintensifier_8.9-1.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
@@ -166,7 +166,7 @@ Name: Speed Intensifier
 Package: com.myrepospace.pw5a29ip4.camerashutterdisabler
 Version: 1.2
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.ericasadun.utilities
 Filename: debs//DisableCameraShutter_1.2.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
