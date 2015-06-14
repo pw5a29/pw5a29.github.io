@@ -3,7 +3,7 @@ Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29
 Depends: com.bytafont.bytafont2
-Filename: .//debs/com.myrepospace.pw5a29ip4.ios9englishfont_1.0-1.deb
+Filename: debs//com.myrepospace.pw5a29ip4.ios9englishfont_1.0-1.deb
 MD5sum: 875b5d6f72cabbba7d0d28e105c341af
 SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
 SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
