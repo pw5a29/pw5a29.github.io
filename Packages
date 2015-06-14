@@ -9,6 +9,171 @@ SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
 SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Fonts
 Description: Official iOS 9 English font
-Author: pw5a29
+Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/ios9englishfont/index.html
 Name: iOS 9 English Font
+
+Package: com.myrepospace.pw5a29ip4.aniweather1
+Version: 2.0-3
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: mobilesubstrate
+Filename: debs//aniweatherhk_2.0-3.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Animated weather on your homescreen
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/aniweather/index.html
+Name: AniWeather
+
+Package: com.myrepospace.pw5a29ip4.bluetickskiller
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: mobilesubstrate
+Filename: debs//btk_1.0-2.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Disable WhatsApp double blue ticks
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/bluetickskiller/index.html
+Name: Blue Ticks Killer
+
+Package: com.myrepospace.pw5a29ip4.ios9chinesefont
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: com.bytafont.bytafont2
+Filename: debs//com.myrepospace.pw5a29ip4.ios9chinesefont_1.0-1.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Fonts
+Description: Official iOS 9 Chinese font
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/ios9chinesefont/index.html
+Name: iOS 9 Chinese Font
+
+Package: com.myrepospace.pw5a29ip4.whatsappdebug
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: mobilesubstrate
+Filename: debs//com.pw5a29.whatsappdebug_0.0.1-1_iphoneos-arm.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Enable Beta debug menu
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/whatsappdebug/index.html
+Name: WhatsApp Debug Enable
+
+Package: com.myrepospace.pw5a29ip4.ios7betafont
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: com.bytafont.bytafont2
+Filename: debs//ios7betafont_2.0-1.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Fonts
+Description: Thinner font from iOS 7 beta
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/ios7betafont/index.html
+Name: iOS 7 Beta Font
+
+Package: com.myrepospace.pw5a29ip4.colorbootlogo
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: winterboard
+Filename: debs//ios7Bootlogo_1.0-2.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Themes
+Description: Color Apple bootlegs come with 8 themes
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/ios7bootlogo/index.html
+Name: Color Bootlogos
+
+Package: com.myrepospace.pw5a29ip4.livebatteryindicator
+Version: 2.7-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: mobilesubstrate
+Filename: debs//LBIiOS6_2.7-2.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Merges battery and percentage in one circular indicator
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/lbiios6/index.html
+Name: Live Battery Indicator iOS 6
+
+Package: com.myrepospace.pw5a29ip4.livebatteryindicator
+Version: 2.6-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: com.fortysixandtwo.alkaline
+Filename: debs//livebatteryindicatorios7_2.6-1_iphoneos-arm.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Addons (Alkaline)
+Description: Merges battery and percentage in one circular indicator
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/lbiios7/index.html
+Name: Live Battery Indicator iOS 8
+
+Package: com.myrepospace.pw5a29ip4.locationdkiller
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: gawk, adv-cmds
+Filename: debs//locationd1.0-6.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Autokill locationd when spikes up CPU
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/locationdkiller/index.html
+Name: locationd Killer
+
+Package: com.myrepospace.pw5a29ip4.speedintensifier
+Version: 8.9-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: mobilesubstrate, preferenceloader
+Filename: debs//speedintensifier_8.9-1.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Speeds up iOS Animations
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/speedintensifier/index.html
+Name: Speed Intensifier
+
+Package: com.myrepospace.pw5a29ip4.camerashutterdisabler
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: com.ericasadun.utilities
+Filename: debs//DisableCameraShutter_1.2.deb
+MD5sum: 875b5d6f72cabbba7d0d28e105c341af
+SHA1: 88265afcfe04c7678c2bccf8cf8f73f2e90e4b50
+SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
+Section: Tweaks
+Description: Disable photo shutter, video and voice memo beep
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/disablecamerashutter/index.html
+Name: Disable Photo Shutter Sound
