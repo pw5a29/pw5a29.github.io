@@ -118,7 +118,7 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/lbiios6/index.html
 Name: Live Battery Indicator iOS 6
 
-Package: com.myrepospace.pw5a29ip4.livebatteryindicator
+Package: com.myrepospace.pw5a29ip4.livebatteryindicatorios7
 Version: 2.6-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
