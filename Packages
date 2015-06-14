@@ -10,7 +10,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Fonts
 Description: Official iOS 9 English font
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/ios9englishfont/index.html
+Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
 Name: iOS 9 English Font
 
 Package: com.myrepospace.pw5a29ip4.aniweather1
@@ -25,7 +25,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Animated weather on your homescreen
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/aniweather/index.html
+Depiction: http://pw5a29.github.io/Depic/aniweather/index.html
 Name: AniWeather
 
 Package: com.myrepospace.pw5a29ip4.bluetickskiller
@@ -40,7 +40,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Disable WhatsApp double blue ticks
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/bluetickskiller/index.html
+Depiction: http://pw5a29.github.io/Depic/bluetickskiller/index.html
 Name: Blue Ticks Killer
 
 Package: com.myrepospace.pw5a29ip4.ios9chinesefont
@@ -55,7 +55,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Fonts
 Description: Official iOS 9 Chinese font
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/ios9chinesefont/index.html
+Depiction: http://pw5a29.github.io/Depic/ios9chinesefont/index.html
 Name: iOS 9 Chinese Font
 
 Package: com.myrepospace.pw5a29ip4.whatsappdebug
@@ -70,7 +70,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Enable Beta debug menu
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/whatsappdebug/index.html
+Depiction: http://pw5a29.github.io/Depic/whatsappdebug/index.html
 Name: WhatsApp Debug Enable
 
 Package: com.myrepospace.pw5a29ip4.ios7betafont
@@ -85,7 +85,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Fonts
 Description: Thinner font from iOS 7 beta
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/ios7betafont/index.html
+Depiction: http://pw5a29.github.io/Depic/ios7betafont/index.html
 Name: iOS 7 Beta Font
 
 Package: com.myrepospace.pw5a29ip4.colorbootlogo
@@ -100,7 +100,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Themes
 Description: Color Apple bootlegs come with 8 themes
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/ios7bootlogo/index.html
+Depiction: http://pw5a29.github.io/Depic/ios7bootlogo/index.html
 Name: Color Bootlogos
 
 Package: com.myrepospace.pw5a29ip4.livebatteryindicator
@@ -115,7 +115,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Merges battery and percentage in one circular indicator
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/lbiios6/index.html
+Depiction: http://pw5a29.github.io/Depic/lbiios6/index.html
 Name: Live Battery Indicator iOS 6
 
 Package: com.myrepospace.pw5a29ip4.livebatteryindicator
@@ -130,7 +130,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Addons (Alkaline)
 Description: Merges battery and percentage in one circular indicator
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/lbiios7/index.html
+Depiction: http://pw5a29.github.io/Depic/lbiios7/index.html
 Name: Live Battery Indicator iOS 8
 
 Package: com.myrepospace.pw5a29ip4.locationdkiller
@@ -145,7 +145,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Autokill locationd when spikes up CPU
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/locationdkiller/index.html
+Depiction: http://pw5a29.github.io/Depic/locationdkiller/index.html
 Name: locationd Killer
 
 Package: com.myrepospace.pw5a29ip4.speedintensifier
@@ -160,7 +160,7 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/speedintensifier/index.html
+Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier
 
 Package: com.myrepospace.pw5a29ip4.camerashutterdisabler
@@ -175,5 +175,5 @@ SHA256: 6ccd84d61d1cfbb63a03c9700ae10cd2f438b52c3550e0b1d656de1e38702fdf
 Section: Tweaks
 Description: Disable photo shutter, video and voice memo beep
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/disablecamerashutter/index.html
+Depiction: http://pw5a29.github.io/Depic/disablecamerashutter/index.html
 Name: Disable Photo Shutter Sound
