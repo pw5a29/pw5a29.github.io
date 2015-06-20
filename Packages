@@ -52,7 +52,7 @@ Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
 Filename: debs//ios9english102.deb
-Size: 21573198
+Size: 21900810
 MD5sum: 37308ccc8061f739c7a6efe2c1930083
 SHA1: 9b5979d422db7b4b07eba1e8c621e29dbb2b8828
 SHA256: b87507d6575d84944669e815cdd40982f2119030bf97b80d497ef90c6ba8d437
