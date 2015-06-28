@@ -174,16 +174,16 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/locationdkiller/index.html
 Name: locationd Killer
 
-Package: com.pw5a29.speedintensifier
-Version: 8.9-3
+Package: com.myrepospace.pw5a29ip4.speedintensifier
+Version: 8.9-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate, preferenceloader
-Filename: debs//speedintensifier_8.9-3.deb
-Size: 44728
-MD5sum: a45989738b5ad59f64986483483d4cd9
-SHA1: e567e5ddeb29b78d90ed1b1c8b447aed2296c1f8
-SHA256: d4f4c17452c0016b61267bdd28644d9e9dde203b4080df784f489760eaf19512
+Filename: debs//speedintensifier_8.9-1.deb
+Size: 57378
+MD5sum: f57896157bc379f8d12d4f33f4d4de39
+SHA1: 3db26a74bdd45a9dec77bc6e006c0f7bfb87925d
+SHA256: 344c9cd7ff827c494c046d0361f4f2ad217e6ca2c6a41f85aa2f31603b96e268
 Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
