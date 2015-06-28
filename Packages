@@ -179,7 +179,7 @@ Version: 8.9-3
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate, preferenceloader
-Filename: debs//speedintensifier_8.9-1.deb
+Filename: debs//speedintensifier_8.9-3.deb
 Size: 56906
 MD5sum: 2e80e7ba2e9628ddcc4922bf49f1eb81
 SHA1: d5be858d37c9a5f984efe1bc7e9a4eae7106dcd5
