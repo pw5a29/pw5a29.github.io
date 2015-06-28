@@ -178,7 +178,7 @@ Package: com.pw5a29.speedintensifier
 Version: 8.9-4
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader
-Filename: .//speedintensifier894.deb
+Filename: debs//speedintensifier894.deb
 Size: 56610
 MD5sum: 8e4599f7d9cc26e23372ca7e1d2d5a8d
 SHA1: 90365b1106730207901f251eac6f1bca5c5f046e
