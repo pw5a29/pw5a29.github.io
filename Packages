@@ -47,15 +47,15 @@ Depiction: http://pw5a29.github.io/Depic/ios9chinesefont/index.html
 Name: iOS 9 Chinese Font
 
 Package: com.myrepospace.pw5a29ip4.ios9englishfont
-Version: 1.0-2
+Version: 1.0-3
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
-Filename: debs//ios9english102.deb
-Size: 21900810
-MD5sum: 37308ccc8061f739c7a6efe2c1930083
-SHA1: 9b5979d422db7b4b07eba1e8c621e29dbb2b8828
-SHA256: b87507d6575d84944669e815cdd40982f2119030bf97b80d497ef90c6ba8d437
+Filename: debs//ios9english103.deb
+Size: 21895914
+MD5sum: f6f9972998bd5c11ab3a4296f7f67ea9
+SHA1: b59d1baa40715853f9f71ea5510658471aec1eb7
+SHA256: 2eeecd11cefce973f7c1092e59c51e086369188b3a6acc3eae13af281aa095cf
 Section: Fonts
 Description: Official iOS 9 English font
 Author: dbk1ng
@@ -177,6 +177,7 @@ Name: locationd Killer
 Package: com.pw5a29.speedintensifier
 Version: 8.9-4
 Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate, preferenceloader
 Filename: debs//speedintensifier894.deb
 Size: 56610
@@ -188,3 +189,19 @@ Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier
+
+Package: com.iky1e.swipeselection
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs//swipe143.deb
+Size: 14452
+MD5sum: 0fccf67237c11c66847dd47bd6582ebb
+SHA1: 36bba9d61660a531edf72eb47f66017bd9048183
+SHA256: da50c0ba63f9d4273f3a5bd793bb0b0554a11742c2989b33f29cc939c1f2a541
+Section: Tweaks
+Description: keyboard swipes move curses & select text
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/swipeselection/index.html
+Name: SwipeSelection
