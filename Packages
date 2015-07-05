@@ -190,16 +190,17 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier
 
-Package: com.iky1e.swipeselection
-Version: 1.4.3
+Package: com.pw5a29.swipeselection
+Version: 1.4.3-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate, preferenceloader
+Conflicts: com.iky1e.swipeselection
 Filename: debs//swipe143.deb
-Size: 14452
-MD5sum: 0fccf67237c11c66847dd47bd6582ebb
-SHA1: 36bba9d61660a531edf72eb47f66017bd9048183
-SHA256: da50c0ba63f9d4273f3a5bd793bb0b0554a11742c2989b33f29cc939c1f2a541
+Size: 14466
+MD5sum: 44a93056f251223a7bd02ddc02892132
+SHA1: 105251bff47cb98822b393b558a6587f516035eb
+SHA256: 7281818d883a0eeebaa7d13c838df3026fd330a416a2ee639755473b44517804
 Section: Tweaks
 Description: keyboard swipes move curses & select text
 Author: pw5a29 <pw5a29@gmail.com>
