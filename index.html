@@ -1,48 +1,364 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset=”utf-8”>
-            <title>pw5a29</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <!-- Bootstrap -->
-                <link href="../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    </head>
-    <body>
-        <div class="container">
-            
-            <h1>&nbsp;</h1>
-            <h1>Welcome to my Cydia Repo</h1>
-            <h4>Add http://pw5a29.github.io/ to Cydia to download my packages.</h4>
-            
-        </div>
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-    </body>
-    
-    <head>
-        <title>pw5a29 Homepage</title>
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
-        <base target="_blank"/>
-        <script type="text/javascript" src="http://beta.tmnlsthrn.com/css/menes.js"></script>
-        <link rel="stylesheet" type="text/css" id="stylesheet">
-            <script type="text/javascript">var agent=navigator.userAgent;var ios=agent.match(/.*; CPU (?:iPhone )?OS ([0-9_]*) like Mac OS X[;)]/);ios=ios==null?'6.0':ios[1].replace(/_/g,'.');var stylesheet=$("#stylesheet");if(ios.match(/^[78]($|\.)/)!=null){stylesheet.href("http://beta.tmnlsthrn.com/css/ios78.css")}else{stylesheet.href("http://beta.tmnlsthrn.com/css/legacy.css")}</script>
-    </head>
-    
-    <script type="text/javascript">
-        if (navigator.userAgent.search(/Cydia/) != -1)
-        document.write('<style type="text/css"> body { background: none !important; } .header { display: none !important; } </style>');
-        </script>
-    
-    <body class="pinstripe">
-        <panel>
-            <fieldset>
-                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://pw5a29.github.io/"><img class="icon" src="http://pw5a29.github.io/Cydia.png"><div><div><label><p>Add Repo in Cydia directly</p></label></div></div></a>
-            </fieldset>
-            <fieldset>
-                <a href="https://twitter.com/pw5a29"><img class="icon" src="http://pw5a29.github.io/Twitter.png"><div><div><label><p>Follow @pw5a29 on Twitter!</p></label></div></div></a>
-            </fieldset>
-        </panel>
-        <script src="http://beta.tmnlsthrn.com/css/iosver.js" async></script>
-    </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
 
+	<title>Philip Wong (pw5a29)</title>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:300|Chivo:900">
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		box-sizing: border-box;
+	}
+
+	html, body {
+		width: 100%;
+		height: 100%;
+	}
+
+	body {
+		font: 300 25px/1 Raleway, "Helvetica Neue", sans-serif;
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 0 0 20px rgba(220, 220, 220, .7);
+	}
+
+	#bg {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #aaa url(philip.png) right bottom/cover;
+	}
+
+	main {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 100%;
+	}
+
+	article {
+		max-width: 70%;
+		padding: 40px;
+	}
+
+	h1 {
+		display: table;
+		margin: 0 auto 40px auto;
+
+		font-weight: 300;
+		font-size: 50px;
+		text-align: left;
+		text-shadow: 0 0 30px #555;
+	}
+
+	h1 em {
+		font: 300 30px/1 Raleway, "Helvetica Neue", sans-serif;
+		color: rgba(128, 128, 128, .8);
+	}
+
+	h1 strong {
+		font: 900 90px/1 Raleway, "Helvetica Neue", sans-serif;
+		color: #ffffff;
+		letter-spacing: -8px;
+	}
+
+	h1 #avatar, h1 div {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	h1 #avatar {
+		width: 192px;
+		height: 192px;
+		background: rgba(245, 245, 245, .9);
+		outline: 4px solid #fff;
+		margin: 4px;
+		box-shadow: 0 0 20px #555;
+	}
+
+	h1 div {
+		padding-left: 20px;
+	}
+
+	hr {
+		margin: 25px 0;
+		height: 1px;
+
+		background: linear-gradient(45deg, transparent, rgba(170, 170, 170, .6), transparent);
+		box-shadow: 0 0 12px rgba(200, 200, 200, .2);
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		margin: 15px 0;
+		line-height: 36px;
+	}
+
+	a {
+		display: inline-block;
+		line-height: 1;
+		text-decoration: none;
+		border-bottom: 1px solid transparent;
+		opacity: 0.8;
+
+		transition-property: opacity, text-shadow, border-bottom-color;
+		transition-duration: 350ms;
+		transition-timing-function: ease-out;
+
+		-webkit-tap-highlight-color: rgba(128, 128, 128, .5);
+		tap-highlight-color: rgba(128, 128, 128, .5);
+	}
+
+	a:hover {
+		opacity: 1;
+		text-shadow: 0 0 30px #888;
+	}
+    
+    a:before {
+        content: "";
+        display: inline-block;
+        margin: 0 6px 0 0;
+        position: relative;
+        top: 3px;
+        width: 30px;
+        height: 30px;
+        background: url("icons.png") 0 0 no-repeat;
+        background-size: auto 100%;
+        transition-property: filter;
+        transition-duration: 350ms;
+        transition-timing-function: ease-out;
+    }
+    a:hover:before {
+        opacity: 1;
+    }
+
+	#Email {
+		color: #00aced;
+	}
+
+	#Email:hover {
+		border-bottom-color: #0064ed;
+	}
+
+	#Email:before {
+		background-position: -34px 0;
+	}
+    
+    #Personalwebsite {
+        color: #ffffff;
+    }
+    
+    #Personalwebsite:hover {
+        border-bottom-color: #ffffff;
+    }
+    
+    #Personalwebsite:before {
+        background-position: -170px 0;
+    }
+
+	#twitter {
+		color: #00aced;
+	}
+
+	#twitter:hover {
+		border-bottom-color: #00aced;
+	}
+
+	#twitter:before {
+		background-position: -0px 0;
+	}
+
+	#Cydia {
+		color: #d6996c;
+	}
+
+	#Cydia:hover {
+		border-bottom-color: #d6996c;
+	}
+
+	#Cydia:before {
+		background-position: -70px 0;
+	}
+    
+    #Cydiainfo {
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+	#reddit {
+		color: #ef5e30;
+	}
+
+	#reddit:hover {
+		border-bottom-color: #ef5e30;
+	}
+
+	#reddit:before {
+		background-position: -109px 0;
+	}
+
+	#updates {
+		color: #edff24;
+	}
+
+	#updates:hover {
+		border-bottom-color: #edff24;
+	}
+
+	#updates:before {
+		background-position: -139px 0;
+	}
+
+	#updatesinfo {
+		font-size: 16px;
+	}
+
+	footer {
+		font-size: 16px;
+		margin: 40px 0 20px 0;
+        color: #ffffff;
+	}
+
+	#copyright {
+		font-size: 12px;
+		line-height: 1.5em;
+		margin-top: 60px;
+        color: #ffffff;
+	}
+
+	@media (max-width: 1200px) {
+		#bg {
+			background-position: 70% bottom;
+		}
+
+		article {
+			max-width: 60%;
+		}
+	}
+    
+    @media (max-width: 1000px) {
+        #bg {
+            background-image: url(philipsmall.png);
+            background-position: 80% bottom;
+        }
+    }
+
+	@media (max-width: 700px) {
+		#bg {
+			background-position: 90% bottom;
+		}
+
+		article {
+			max-width: 100%;
+			padding: 20px;
+			background: rgba(255, 255, 255, .2);
+		}
+
+		h1 {
+			display: block;
+			font-size: 35px;
+			text-align: center;
+			margin: 0;
+		}
+
+		h1 em {
+			font-size: 25px;
+		}
+
+		h1 strong {
+			font-size: 60px;
+			letter-spacing: -6px;
+		}
+
+		h1 #avatar {
+			width: 100%;
+			height: auto;
+			margin: 0;
+		}
+
+		h1 #avatar, h1 div {
+			display: block;
+		}
+
+		h1 div {
+			padding-left: 0;
+			margin-top: 40px;
+		}
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		a:before {
+			background-image: url("icons@2x.png");
+		}
+	}
+	</style>
+
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+	<div id="bg"></div>
+
+	<main>
+		<article>
+			<h1>
+				<img src="https://pw5a29.github.io/philipicon.png">
+
+				<div>
+					Philip Wong (pw5a29)<br>
+				</div>
+			</h1>
+
+			<hr>
+			<ul>
+<li>
+    <a href="https://pw5a29.github.io/web/Tweaks.html" id="Personalwebsite" title="Personalwebsite">Enter My Personal Website</a>
+</li>
+			</ul>
+            			<hr>
+			<ul>
+				<li>
+					Add my repo to Cydia directly <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://pw5a29.github.io/" id="Cydia" title="Add Repo">Cydia Repo</a><br>
+                    <span id="Cydiainfo">Add http://pw5a29.github.io/ to Cydia, or click the above link on your iOS device</span>
+				</li>
+
+				<li>
+					Check out my public packages <a href="http://cydiaupdates.net/?f=1&a=pw5a29" id="updates" title="CydiaUpdates">Cydiaupdates</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<ul>
+				<li>
+					You can contact me on <a href="https://twitter.com/pw5a29" id="twitter" title="Twitter (@pw5a29)" rel="me">Twitter</a><a href="mailto:pw5a29@gmail.com" id="Email" title="Email" rel="me">Email</a>
+				</li>
+
+				<li>
+					Join my discussion on <a href="https://www.reddit.com/user/pw5a29" id="reddit" title="Reddit (/u/pw5a29)" rel="me">Reddit</a>
+				</li>
+
+			</ul>
+
+			<footer>
+
+				<p id="copyright">
+					&copy; 2015, Philip Wong. Website logos are copyright of their respective owners.
+				</p>
+			</footer>
+		</article>
+	</main>
+</body>
 </html>
