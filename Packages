@@ -47,15 +47,15 @@ Depiction: http://pw5a29.github.io/Depic/ios9chinesefont/index.html
 Name: iOS 9 Chinese Font
 
 Package: com.myrepospace.pw5a29ip4.ios9englishfont
-Version: 1.0-3
+Version: 1.0-4
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
-Filename: debs//ios9english103.deb
-Size: 21895914
-MD5sum: f6f9972998bd5c11ab3a4296f7f67ea9
-SHA1: b59d1baa40715853f9f71ea5510658471aec1eb7
-SHA256: 2eeecd11cefce973f7c1092e59c51e086369188b3a6acc3eae13af281aa095cf
+Filename: debs//ios9english104.deb
+Size: 21724360
+MD5sum: cda8820df78854e19c238806da4fb23a
+SHA1: e80ff044017b2b01f00dfc59f00ebeb60378c88f
+SHA256: ee40cedd192901f494e2b60f00302d3fc1ce1ec3fa64af252dea5ed6eb3c4689
 Section: Fonts
 Description: Official iOS 9 English font
 Author: dbk1ng
