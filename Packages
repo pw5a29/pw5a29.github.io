@@ -206,3 +206,19 @@ Description: keyboard swipes move curses & select text
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/swipeselection/index.html
 Name: SwipeSelection
+
+Package: com.pw5a29.actualbattery
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Depends: mobilesubstrate
+Filename: debs//actual211.deb
+Size: 17636
+MD5sum: 3894eb247b4a43b16a14286e9a17e51d
+SHA1: 2506fb43c465afac537f9b2647dc8b1d2485d57e
+SHA256: 7cd81b4d07b8b27fa78731be650581f3f72f338aabe6c0f84d28d1e743207bd1
+Section: Tweaks
+Description: Show true battery in percentage by remaining mah and total capacity
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/actualbattery/index.html
+Name: Actual Battery
