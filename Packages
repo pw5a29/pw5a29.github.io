@@ -210,7 +210,7 @@ Name: SwipeSelection
 Package: com.pw5a29.actualbattery
 Version: 2.1-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: debs//actual211.deb
 Size: 17636
@@ -222,3 +222,19 @@ Description: Show true battery in percentage by remaining mah and total capacity
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/actualbattery/index.html
 Name: Actual Battery
+
+Package: com.pw5a29.htcemojifont
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont2
+Filename: debs//htc.deb
+Size: 38316864
+MD5sum: 9532cbdc857972ca3c81425bde68e91b
+SHA1: 7bc950f26520036524686878b3c94b536eb4981b
+SHA256: 76ab7171263958057c093e6d742978f133f9ed5fe7e7f854b0f24230a97c3303
+Section: Fonts (BytaFont 2)
+Description: Custom HTC font (HTC+EmojiOne)
+Author: dbk1ng/pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
+Name: HTC Emoji 8.3+
