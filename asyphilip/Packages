@@ -1,0 +1,48 @@
+Package: com.pw5a29.biclock
+Version: 0.0.3-46
+Architecture: iphoneos-arm
+Maintainer: Philip Wong
+Depends: mobilesubstrate
+Filename: .//Biclock.deb
+Size: 31596
+MD5sum: 093108be71e25fe67b134480af1a4f8d
+SHA1: 482c6c67389d8d6132f54841eade6061371c75d1
+SHA256: 4bb795f8529532e00ea7f7967edc152259688ffbfab9834109d4cbf7a76ef7da
+Section: Tweaks
+Description: Custom images for passcode pad
+Author: Philip Wong
+Depiction: http://pw5a29.github.io/asyphilip/Depic/biclock/index.html
+Name: BicLock
+
+Package: com.pw5a29.bmoji
+Version: 10.10
+Architecture: iphoneos-arm
+Maintainer: Myrepospace
+Depends: com.bytafont.bytafont2
+Filename: .//bmojihtc.deb
+Size: 39733218
+MD5sum: 80fb6b3918010f330204002832f8f64a
+SHA1: d3e11c1509d86f235c3ab322d6136a94b5e75ba2
+SHA256: a11624b622aee6715a6b9d73a66dd7e3464a65cb5a138da421924605e7fc7aa0
+Section: Tweaks
+Description: Replace iOS emoji with B jai face
+Author: pw5a29
+Depiction: http://pw5a29.github.io/asyphilip/Depic/bmoji/index.html
+Name: Bmoji
+
+Package: com.pw5a29.bmoji
+Version: 10.9-2015
+Architecture: iphoneos-arm
+Maintainer: Myrepospace
+Depends: com.bytafont.bytafont2
+Filename: .//bmoji.deb
+Size: 55583924
+MD5sum: 09cd727cfced234751b921d45d6eab78
+SHA1: b86d32565f700f8df669e692c9a4c3612c793029
+SHA256: 227beb5401ab52d45d5b6ff46697e5276608c34e13b764e080126103da61298d
+Section: Tweaks
+Description: Replace iOS emoji with B jai face
+Author: pw5a29
+Depiction: http://pw5a29.github.io/asyphilip/Depic/bmoji/index.html
+Name: Bmoji
+
