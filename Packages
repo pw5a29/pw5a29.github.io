@@ -224,6 +224,22 @@ Depiction: http://pw5a29.github.io/Depic/actualbattery/index.html
 Name: Actual Battery
 
 Package: com.pw5a29.htcemojifont
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont2
+Filename: debs//htcemoji1.1-1.deb
+Size: 38311482
+MD5sum: bf5ffa0bece54204f4fa344835635890
+SHA1: 00f4eadf9191a0ab58a4a1d3c818388a03949c9e
+SHA256: 7100a313eeea537e7910db9a0c8f92392f99e657b3cf4118b61827c6c8dd97a1
+Section: Fonts (BytaFont 2)
+Description: Custom HTC font (HTC+EmojiOne)
+Author: dbk1ng
+Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
+Name: HTC Emoji 8.3+
+
+Package: com.pw5a29.htcemojifont
 Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
@@ -238,3 +254,19 @@ Description: Custom HTC font (HTC+EmojiOne)
 Author: xXBaKeRXv/pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
 Name: HTC Emoji 8.3+
+
+Package: com.myrepospace.pw5a29ip4.ios9englishfontrounded
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont2
+Filename: debs//ios9round1.0-1.deb
+Size: 552
+MD5sum: 366e8128705efdb35ec1eb97ed8ca2c7
+SHA1: b3cd9bcce4da8ff2b334d31776ed3b751ea6b6b3
+SHA256: 277d20e80c5590c068382a018dfa9317c62018e11a0d35fa49c8140b99a9b770
+Section: Fonts (BytaFont 2)
+Description: English Rounded Font from iOS 9, ported by dbk1ng
+Author: dbk1ng
+Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
+Name: iOS 9 English Font Rounded
