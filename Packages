@@ -142,16 +142,16 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/lbiios6/index.html
 Name: Live Battery Indicator iOS 6
 
-Package: com.myrepospace.pw5a29ip4.livebatteryindicatorios7
-Version: 2.6-1
+Package: com.modmyi.livebatteryindicatorios7
+Version: 3.0-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.fortysixandtwo.alkaline
-Filename: debs//livebatteryindicatorios7_2.6-1_iphoneos-arm.deb
-Size: 1000538
-MD5sum: 7ef0155a63672630d577bb59ea77a88d
-SHA1: 519e048180802f2e305c15c6db2208a68286b612
-SHA256: d4ccd25b0058fe63f0fd523a34e440f9998d54fbfdc589845af1a5a0262cbe27
+Filename: debs//LBI3.0-1.deb
+Size: 5880440
+MD5sum: f4885439626449e0f00b4046db3c9b4d
+SHA1: c904903b4c2b806c4164ec6b526bae3d271a4665
+SHA256: 4fc76279ba583ce962def55880e4f4dfd6cc2f2aeac8812c92288ded3cc88c29
 Section: Addons (Alkaline)
 Description: Merges battery and percentage in one circular indicator
 Author: pw5a29 <pw5a29@gmail.com>
@@ -273,15 +273,15 @@ Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
 Name: HTC Emoji 8.3+
 
 Package: com.myrepospace.pw5a29ip4.ios9englishfontrounded
-Version: 1.0-1
+Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
-Filename: debs//ios9round1.0-1.deb
-Size: 552
-MD5sum: 366e8128705efdb35ec1eb97ed8ca2c7
-SHA1: b3cd9bcce4da8ff2b334d31776ed3b751ea6b6b3
-SHA256: 277d20e80c5590c068382a018dfa9317c62018e11a0d35fa49c8140b99a9b770
+Filename: debs//ios9round1.0-2.deb
+Size: 20719686
+MD5sum: b6e59bee7354d6c537ffaee0f32d3d66
+SHA1: 909162e2dddbd231ffeb44ec0e795396499e5306
+SHA256: ca07ca35e235ea00f72fb338c73a0fd122150411290b79ffe1fdbe328d5454cb
 Section: Fonts (BytaFont 2)
 Description: English Rounded Font from iOS 9, ported by dbk1ng
 Author: dbk1ng
