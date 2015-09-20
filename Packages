@@ -224,6 +224,22 @@ Depiction: http://pw5a29.github.io/Depic/actualbattery/index.html
 Name: Actual Battery
 
 Package: com.pw5a29.htcemojifont
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont2
+Filename: debs//htc1.2-1.deb
+Size: 40493602
+MD5sum: 29d0d9519df1c163d5026c870a69b8db
+SHA1: a34e0c308391def8e8f6e3be275ad8978bd2c55a
+SHA256: c9628e0807666073973cf2fc753ff8a0f0f56de52e063fcadaffa08ffa72433f
+Section: Fonts (BytaFont 2)
+Description: Custom HTC font (HTC+EmojiOne)
+Author: xXBaKeRXv/pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
+Name: HTC Emoji 8.3+
+
+Package: com.pw5a29.htcemojifont
 Version: 1.1-3
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
