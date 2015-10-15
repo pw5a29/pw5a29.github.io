@@ -206,6 +206,22 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier
 
+Package: com.pw5a29.speedintensifier
+Version: 9.0-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs//si902.deb
+Size: 60280
+MD5sum: 6ff3a423aeab85b1415fec9ca9140a8b
+SHA1: e6c2c5a4fc01de1189ecf77f53609488c63f716e
+SHA256: aa56630e50d0a0d1cff0d217c82ae4b9148a7e620b768b10251ae24324dd9a70
+Section: Tweaks
+Description: Speeds up iOS Animations
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
+Name: Speed Intensifier
+
 Package: com.pw5a29.swipeselection
 Version: 1.4.3-1
 Architecture: iphoneos-arm
