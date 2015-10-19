@@ -334,3 +334,20 @@ Description: English Rounded Font from iOS 9, ported by dbk1ng
 Author: dbk1ng
 Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
 Name: iOS 9 English Font Rounded
+
+Package: com.pw5a29.speedintensifier
+Version: 9.1-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs//si911.deb
+Size: 60218
+MD5sum: be5d0f38c5f50495392437862fc453d7
+SHA1: 791b4e95ccd7f615ff961a4fb49ea757e9e57c64
+SHA256: 1f966f92c0a6ef90e4dd8741c6ca29ed5da136425f0b8293b2413088d9d5bcfa
+Section: Tweaks
+Description: Speeds up iOS Animations
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
+Name: Speed Intensifier
+
