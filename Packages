@@ -191,22 +191,6 @@ Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier
 
 Package: com.pw5a29.speedintensifier
-Version: 9.0-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Filename: debs//si901.deb
-Size: 59840
-MD5sum: 60b5153e8ae608bbfcf2c6d20bc65841
-SHA1: 0c95cd5c09e16989e28abd74efc7deaa84086958
-SHA256: 3e31b6ad36721a68a7755511a1b8e9d3d707a3e2bf99edae58724f0ec90bae50
-Section: Tweaks
-Description: Speeds up iOS Animations
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
-Name: Speed Intensifier
-
-Package: com.pw5a29.speedintensifier
 Version: 9.0-2
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
@@ -232,6 +216,22 @@ Size: 60218
 MD5sum: be5d0f38c5f50495392437862fc453d7
 SHA1: 791b4e95ccd7f615ff961a4fb49ea757e9e57c64
 SHA256: 1f966f92c0a6ef90e4dd8741c6ca29ed5da136425f0b8293b2413088d9d5bcfa
+Section: Tweaks
+Description: Speeds up iOS Animations
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
+Name: Speed Intensifier
+
+Package: com.pw5a29.speedintensifier
+Version: 9.1-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs//si912.deb
+Size: 60314
+MD5sum: cae1afaab0a4ece68a7ef61b3db2e0fa
+SHA1: 6733da2b99ff93113b47e3658a3ee9d7807912bf
+SHA256: 5c3a12327ca254705ea15f7dbe29947a70f0b6c7018f73d3e47369471e846d71
 Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
