@@ -366,3 +366,19 @@ Description: English Rounded Font from iOS 9, ported by dbk1ng
 Author: dbk1ng
 Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
 Name: iOS 9 English Font Rounded
+
+Package: com.pw5a29.splitviewer
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: mobilesubstrate
+Filename: debs//ipadpro.deb
+Size: 9376
+MD5sum: f64c96b278eca227f8a0e4ddf0df3fa7
+SHA1: ce1e780ced45781b3af1a75e6f065c446605dbfc
+SHA256: a39e2fe5c6c8a1fa622a7497b828c009165ff050bc0dcf752b282e3568339644
+Section: Tweaks
+Description: Enable slideover and split screen on other iPads
+Author: pw5a29
+Depiction: http://pw5a29.github.io/Depic/ipadpro/index.html
+Name: Split Viewer
