@@ -382,3 +382,19 @@ Description: Enable slideover and split screen on other iPads
 Author: pw5a29
 Depiction: http://pw5a29.github.io/Depic/ipadpro/index.html
 Name: Split Viewer
+
+Package: com.pw5a29.splitviewer
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: mobilesubstrate
+Filename: debs//ipadpro902.deb
+Size: 9428
+MD5sum: 71452b7b9c9bec584b4dcc555bb85930
+SHA1: 2431888248dc1c79cd937f1a398f0b4b86088d1c
+SHA256: 2991af5f907e7cfb5486ebcbde954382b9fa6d3fff464de4d3fb99863db8d7f7
+Section: Tweaks
+Description: Enable slipover and split screen on other iPads
+Author: pw5a29
+Depiction: http://pw5a29.github.io/Depic/ipadpro/index.html
+Name: Split Viewer
