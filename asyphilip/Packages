@@ -15,15 +15,15 @@ Depiction: http://pw5a29.github.io/asyphilip/Depic/biclock/index.html
 Name: BicLock
 
 Package: com.pw5a29.bmoji
-Version: 2015.3
+Version: 2015.4
 Architecture: iphoneos-arm
 Maintainer: Myrepospace
-Depends: com.bytafont.bytafont2
-Filename: .//bmoji2015_3.deb
-Size: 42498816
-MD5sum: 87cea606fbfa10bfc3860c666026beed
-SHA1: e5610ec658daf496c6a15dae4d03173b14d7d0e4
-SHA256: 3913ac1306babea999cfc428d5dcf13d83bbe316fa8f69602ca770f5ce87758e
+Depends: com.bytafont.bytafont3
+Filename: .//bmoji9.deb
+Size: 42498890
+MD5sum: 2490abee235f59cf3da0cf07e3c4ef35
+SHA1: a1d67b301ed4034213802d756e838b7368d7720d
+SHA256: bcf45e51d63849c3a59dce5bf2d102c2501cfb6d7cad386f9d8d0526bfd7d586
 Section: Tweaks
 Description: Replace iOS emoji with B jai face
 Author: pw5a29
