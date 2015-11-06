@@ -14,22 +14,6 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/aniweather/index.html
 Name: AniWeather
 
-Package: com.pw5a29.htcemojifont9
-Version: 1.2-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont3
-Filename: debs//htc9.deb
-Size: 40493634
-MD5sum: 38998a200bd715dac078a85046a2f81e
-SHA1: 36d209c4edc7075991e143b953a138c6c2329d74
-SHA256: 95efc77271a905d4d774433acc0a5948798c84ae0e69948c6f1ad17e50473f3e
-Section: Fonts (BytaFont 3)
-Description: Custom HTC font (HTC+EmojiOne)
-Author: pw5a29
-Depiction: http://pw5a29.github.io/Depic/htcemojifont9/index.html
-Name: HTC Emoji 9.1+
-
 Package: com.myrepospace.pw5a29ip4.bluetickskiller
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -383,34 +367,18 @@ Author: dbk1ng
 Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
 Name: iOS 9 English Font Rounded
 
-Package: com.pw5a29.splitviewer
-Version: 1.0-1
+Package: com.pw5a29.htcemojifont9
+Version: 1.2-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//ipadpro.deb
-Size: 9376
-MD5sum: f64c96b278eca227f8a0e4ddf0df3fa7
-SHA1: ce1e780ced45781b3af1a75e6f065c446605dbfc
-SHA256: a39e2fe5c6c8a1fa622a7497b828c009165ff050bc0dcf752b282e3568339644
-Section: Tweaks
-Description: Enable slideover and split screen on other iPads
+Depends: com.bytafont.bytafont3
+Filename: debs//htc9.deb
+Size: 40493634
+MD5sum: 38998a200bd715dac078a85046a2f81e
+SHA1: 36d209c4edc7075991e143b953a138c6c2329d74
+SHA256: 95efc77271a905d4d774433acc0a5948798c84ae0e69948c6f1ad17e50473f3e
+Section: Fonts (BytaFont 3)
+Description: Custom HTC font (HTC+EmojiOne)
 Author: pw5a29
-Depiction: http://pw5a29.github.io/Depic/ipadpro/index.html
-Name: Split Viewer
-
-Package: com.pw5a29.splitviewer
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//ipadpro902.deb
-Size: 9428
-MD5sum: 71452b7b9c9bec584b4dcc555bb85930
-SHA1: 2431888248dc1c79cd937f1a398f0b4b86088d1c
-SHA256: 2991af5f907e7cfb5486ebcbde954382b9fa6d3fff464de4d3fb99863db8d7f7
-Section: Tweaks
-Description: Enable slipover and split screen on other iPads
-Author: pw5a29
-Depiction: http://pw5a29.github.io/Depic/ipadpro/index.html
-Name: Split Viewer
+Depiction: http://pw5a29.github.io/Depic/htcemojifont9/index.html
+Name: HTC Emoji 9.1+
