@@ -40,7 +40,7 @@ Size: 39740092
 MD5sum: d90776b1ece044a00577a01b67f832c7
 SHA1: fac40d3d7669f2902c7ce35fdf8f4f8dd72696aa
 SHA256: d28e3acae31c83b877a53e753ae1e9b695d9f6e98f9e231f07bbff10a4833d56
-Section: Fonts
+Section: Fonts (BytaFont 2)
 Description: Official iOS 9 Chinese font
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/ios9chinesefont/index.html
@@ -56,7 +56,7 @@ Size: 21724360
 MD5sum: cda8820df78854e19c238806da4fb23a
 SHA1: e80ff044017b2b01f00dfc59f00ebeb60378c88f
 SHA256: ee40cedd192901f494e2b60f00302d3fc1ce1ec3fa64af252dea5ed6eb3c4689
-Section: Fonts
+Section: Fonts (BytaFont 2)
 Description: Official iOS 9 English font
 Author: dbk1ng
 Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
@@ -104,7 +104,7 @@ Size: 12944158
 MD5sum: 8ed8c47d8a33d41a0bab3d2166516c87
 SHA1: 8a6d302ee57fc2f8e4b7684fb5d1dedbb0a93f39
 SHA256: 48b1dc0f7d33046834783e169e9a36be5fcdf7e45824aa5d9dc9549c4048e015
-Section: Fonts
+Section: Fonts (BytaFont 2)
 Description: Thinner font from iOS 7 beta
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/ios7betafont/index.html
@@ -382,3 +382,19 @@ Description: Custom HTC font (HTC+EmojiOne)
 Author: pw5a29
 Depiction: http://pw5a29.github.io/Depic/htcemojifont9/index.html
 Name: HTC Emoji 9.1+
+
+Package: com.modmyi.emojione2016
+Version: 0.9-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont3
+Filename: debs//emojione.deb
+Size: 34430218
+MD5sum: 86271059d035e5efe483c2dd8b86d458
+SHA1: 2b8e19bf098456736c11c4c9064efc0318502851
+SHA256: beb7f75ba6b401e1e74f79d61ad5ce4984f85975ac03dacef0bb94ae49cb64fa
+Section: Fonts (BytaFont 3)
+Description: Ported from EmojiOne 2016 Collection
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/emojione/index.html
+Name: EmojiOne 2016
