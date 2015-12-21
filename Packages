@@ -382,19 +382,3 @@ Description: Custom HTC font (HTC+EmojiOne)
 Author: pw5a29
 Depiction: http://pw5a29.github.io/Depic/htcemojifont9/index.html
 Name: HTC Emoji 9.1+
-
-Package: com.modmyi.emojione2016
-Version: 0.9-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont3
-Filename: debs//emojione.deb
-Size: 34430218
-MD5sum: 86271059d035e5efe483c2dd8b86d458
-SHA1: 2b8e19bf098456736c11c4c9064efc0318502851
-SHA256: beb7f75ba6b401e1e74f79d61ad5ce4984f85975ac03dacef0bb94ae49cb64fa
-Section: Fonts (BytaFont 3)
-Description: Ported from EmojiOne 2016 Collection
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/emojione/index.html
-Name: EmojiOne 2016
