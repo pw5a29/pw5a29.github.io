@@ -383,16 +383,32 @@ Author: pw5a29
 Depiction: http://pw5a29.github.io/Depic/htcemojifont9/index.html
 Name: HTC Emoji 9.1+
 
+Package: com.modmyi.emojione2016theme
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont3
+Filename: debs//emojione102.deb
+Size: 34451880
+MD5sum: 7514e02d2c35ad8ab241194e385a91b1
+SHA1: aef5d718db065583f59d8e9404e03285d249b051
+SHA256: 4a7c6959e4e2a8db33eea896e1816d8f2c249fbb3938e34cb27ef1a25c73f8e8
+Section: Fonts (BytaFont 3)
+Description: Ported from EmojiOne 2016 Collection
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/emojione/index.html
+Name: EmojiOne 2016 Theme
+
 Package: com.modmyi.emojione2016themeios8
-Version: 0.9-1
+Version: 0.9-2
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
 Filename: debs//emoji8.deb
-Size: 34430146
-MD5sum: d800e3a4029f0955589376aa24a2f8e7
-SHA1: 773c6c084a2ec70d7ffa3f980eb862ffcb7c602e
-SHA256: 54aa09e3e28bac1bcec749c25a247aff2ed09ad6f5e374010526344f39917ce4
+Size: 34451858
+MD5sum: e514b5e9cc5cc37dde11deb99039b91d
+SHA1: 67be7997f66347bda64e8dc9a82ebcdb14d639f9
+SHA256: a0e9050017335df51048617310e4e6c87d98d3b81361de184a32c9c88a151056
 Section: Fonts (BytaFont 2)
 Description: Ported from EmojiOne 2016 Collection for iOS 8
 Author: pw5a29 <pw5a29@gmail.com>
