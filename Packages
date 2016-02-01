@@ -399,6 +399,22 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/emojione/index.html
 Name: EmojiOne 2016 Theme
 
+Package: com.modmyi.emojione2016theme
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont3
+Filename: debs//emojione121.deb
+Size: 41966086
+MD5sum: b2c0083b764cca5037e037aa4ccd6d58
+SHA1: 821d0a7344cb49116e426811194da208decb6f11
+SHA256: a12b0aa7412a742fee2be0e5523df74cab092524140f7c3359ff8b2fd6a30942
+Section: Fonts (BytaFont 3)
+Description: Ported from EmojiOne 2016 Collection
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/emojione/index.html
+Name: EmojiOne 2016 Theme
+
 Package: com.modmyi.emojione2016themeios8
 Version: 0.9-2
 Architecture: iphoneos-arm
