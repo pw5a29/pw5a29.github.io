@@ -367,17 +367,18 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/emojione/index.html
 Name: EmojiOne 2016 Theme iOS 8
 
-Package: com.pw5a29.multigram
-Version: 1.0
+Package: com.modmyi.emojione2016theme
+Version: 2.0
 Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: debs//multigram.deb
-Size: 3246
-MD5sum: 4aa65cfac2b997b78732986e19ffb56f
-SHA1: c45b91e720164751b7d9774e46f10fc9b65d95c0
-SHA256: 3a922cf72621689a64863c44ada568289ee5b5b19134e9f1c928163b44199a43
-Section: Tweaks
-Description: Enable multi accounts on Instagram
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.bytafont.bytafont3
+Filename: debs//emojione2.deb
+Size: 61161308
+MD5sum: 70add99a6af06de32d5be7738236659b
+SHA1: 802012f0c61be7637d449507e207cd3f3c737fcc
+SHA256: 8326fb8cf0ffec7089724afe2c37b0c8bb04606304bc87afff18b738b0e7634f
+Section: Fonts (BytaFont 3)
+Description: Ported from EmojiOne 2016 Collection
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/multigram/index.html
-Name: Multigram
+Depiction: http://pw5a29.github.io/Depic/emojione/index.html
+Name: EmojiOne 2016 Theme
