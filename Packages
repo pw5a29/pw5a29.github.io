@@ -384,17 +384,17 @@ Depiction: http://pw5a29.github.io/Depic/emojione/index.html
 Name: EmojiOne 2016 Theme
 
 Package: com.pw5a29.emoji10
-Version: 1.0
+Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
-Filename: debs//10emoji.deb
 Depends: firmware (>= 9.3)
-Size: 49552306
-MD5sum: 49016fe85cee87a56a71a268c591766d
-SHA1: 6cd8f9c8d72ea74108d7d6aed0e39e2a2c3837fc
-SHA256: 6bf52af113dfbd4e7e7ac46c5423c3dffa787e27a203d11ab5126b1ab1476d8e
+Filename: debs//10emoji.deb
+Size: 49552334
+MD5sum: 61a93eca4ff8390f1226166cf8f08094
+SHA1: 3d1ea5a8b2064f0db7a0e04d2196ce1000f1e39c
+SHA256: e26af7d0e770d41e8c399f371108dc1e03cb59a2e9577ee62bf8136c0960cde2
 Section: Fonts
-Description: Ported from iOS 10 beta 4, install to apply, remove to delete
+Description: Ported from iOS 10 beta 4
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/emoji10/index.html
 Name: iOS 10 Emojis
