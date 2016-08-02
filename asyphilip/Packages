@@ -1,7 +1,23 @@
+Package: com.pw5a29.bbtheme
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Depends: com.anemonetheming.anemone
+Filename: .//bbtheme.deb
+Size: 1583982
+MD5sum: e4a335dd5a7a7feeef0bd8619b5a07ba
+SHA1: 48e1fab72445234a44825d837722ac8366091b96
+SHA256: 14796e8bf832e6a344f674c0fe0bb24aadafe22419af759e8b3e961e5affb29d
+Section: Themes
+Description: Cartoonish icons for iOS 9 (Indigo)
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/asyphilip/Depic/bbtheme/index.html
+Name: B jai Theme jai
+
 Package: com.pw5a29.biclock
 Version: 0.0.3-46
 Architecture: iphoneos-arm
-Maintainer: Philip Wong
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: .//Biclock.deb
 Size: 31596
