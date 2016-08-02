@@ -414,3 +414,18 @@ Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier
+
+Package: com.pw5a29.emoji10
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: pw5a29 <pw5a29@gmail.com>
+Filename: debs//10emoji102.deb
+Size: 49552202
+MD5sum: be3192752cd41cae0a8a68b12e534d6a
+SHA1: 447bdb6d527fd16f20e1f56e710d77426a771a9c
+SHA256: 7c5263b633206bfbe88af59b3f8a5cc760b02a52e0e0cabf0162cf3fe93d8af3
+Section: Fonts
+Description: Ported from iOS 10 beta 4
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/emoji10/index.html
+Name: iOS 10 Emojis
