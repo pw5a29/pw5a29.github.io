@@ -431,15 +431,15 @@ Depiction: http://pw5a29.github.io/Depic/emoji10/index.html
 Name: iOS 10 Emojis
 
 Package: com.pw5a29.4gtolte
-Version: 1.0-1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
 Filename: debs//4gtolte.deb
-Size: 12610
-MD5sum: 160f0afec78e917b617274fcdd9c3342
-SHA1: bdd6becfff6815582d3a2c601e641bc1f8bbbf15
-SHA256: 5c60b0716baa3f86151fc311be608881a279a66addb21d3eb20b69e0a87d8453
+Size: 12586
+MD5sum: 5bff18a8f49f481fdad2c18edc401bc5
+SHA1: d6a24d2eee2e0c0a24b89b90e3d6b73110b570de
+SHA256: 35db08a1ff9d96d9da2f64ab44767a2b43247fa1f34019cdcda34538d0c7868f
 Section: Tweaks
 Description: Shows LTE instead of 4G, and vice versa
 Author: pw5a29 <pw5a29@gmail.com>
