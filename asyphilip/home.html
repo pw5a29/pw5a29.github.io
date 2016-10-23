@@ -22,32 +22,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-        <SCRIPT>
-            function passWord() {
-                var testV = 1;
-                var pass1 = prompt('Please Enter Your Password',' ');
-                while (testV < 3) {
-                    if (!pass1)
-                    history.go(-1);
-                    if (pass1.toLowerCase() == "0000") {
-                        alert('You Got it Right!');
-                        window.open('www.google.com.hk');
-                        break;
-                    }
-                    testV+=1;
-                    var pass1 =
-                    prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-                }
-                if (pass1.toLowerCase()!="password" & testV ==3) 
-                history.go(-1);
-                return " ";
-            } 
-        </SCRIPT>
-        <CENTER>
-            <FORM>
-                <input type="button" value="Enter Protected Area" onClick="passWord()">
-            </FORM>
-        </CENTER>
 </head><!--/head-->
 
 <body>
