@@ -1,30 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <SCRIPT>
-            function passWord() {
-                var testV = 1;
-                var pass1 = prompt('Please Enter Your Password',' ');
-                while (testV < 3) {
-                    if (!pass1)
-                    history.go(-1);
-                    if (pass1.toLowerCase() == "iloveubb") {
-                        window.open('https://pw5a29.github.io/asyphilip/home.html');
-                        break;
-                    }
-                    testV+=1;
-                    var pass1 =
-                    prompt('Access Denied - Password Incorrect, Please Try Again. Hint: IG pass','Password');
-                }
-                if (pass1.toLowerCase()!="password" & testV ==3) 
-                history.go(-1);
-                return " ";
-            } 
-        </SCRIPT>
-        <CENTER>
-            <FORM>
-                <input type="button" value="Enter Protected Area" onClick="passWord()">
-            </FORM>
-        </CENTER>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | asyphilip</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/lightbox.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+        <audio src="music/bgm.mp3" autoplay>
+            <p>If you are reading this, it is because your browser does not support the audio element.</p>
+        </audio>
 </head><!--/head-->
+
+<body>
+<header id="header">
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                    	<h1><img src="images/logo.png" alt="logo"></h1>
+                    </a>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="blog.html">Blog</a></li>
+                        <li class="active"><a href="https://www.icloud.com/sharedalbum/#B0hJtdOXmGKXu9Z">iCloud Photos</a></li>
+                        <li class="active"><a href="https://telegram.me/veniceau">Find Venice</a></li>
+                        <li class="active"><a href="https://telegram.me/philipwong">Find Philip</a></li>
+                    </ul>
+                </div>
+                </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>Visit the blog</h1>
+                        <p>This blog records our life, remembering our joy, our sadness and our memories</p>
+                        <a href="blog.html" class="btn btn-common">Enter</a>
+                    </div>
+                    <img src="images/slider.png" class="slider-hill" alt="slider image">
+                </div>
+            </div>
+        </div>
+<div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="images/home/icon1.png" alt="">
+                        </div>
+                        <h2>Graduation - time flies</h2>
+                        <p>After 3 years of hard work, we finally graduated together. So proud of ourselves.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="images/home/icon2.png" alt="">
+                        </div>
+                        <h2>Adventurous exploring</h2>
+                        <p>What a hot day to go hiking and explore Hong Kong. Haha. Climb up, climb down, and sing all along.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="images/home/icon3.png" alt="">
+                        </div>
+                        <h2>Enjoying the breeze</h2>
+                        <p>Whats better than enjoying the cool breeze on the rocks of the Brighton Pier.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#services-->
+
+    <section id="action" class="responsive">
+        <div class="vertical-center">
+             <div class="container">
+                <div class="row">
+                    <div class="action take-tour">
+                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <h1 class="title">iCloud Photos</h1>
+                            <p>The library which stores our nice memories</p>
+                        </div>
+                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="tour-button">
+                                <a href="https://www.icloud.com/sharedalbum/#B0hJtdOXmGKXu9Z" class="btn btn-common">Enter</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--/#action-->
+
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/image1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>White white snow everywhere</h2>
+                        <P>After years of hope, finally we can see snow again, we go to school together, walking along the snow, footprints on the snow marks the good memories together. Snow melts, memories lives inside the heart.</P>
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Sing sing together merrily merrily sing</h2>
+                        <P>Us singing together is best best duo ever. Not in terms of vocal and pitch, but the craZiness and freeness shown within. Just sing till the glass breaks, until the ceiling falls. <br> 無懼世事變改，還是越難越愛</P>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/image2.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/image3.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Fun vibes</h2>
+                        <P>Finally got a chance to play wargame together. All games, same team, same aim. Our aim: To kill all enemies, avoid all bullets, run through the whole stadium. <br> The ending: We died first. LOL, just LOL</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--/#features-->
+
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
+                        <h1 class="title">Happy Together</h1>
+                        <p>Although we are not together under the same ceiling, our hearts are connected <br> just like the start, never cease. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--/#clients-->
+
+<footer>
+    
+        <div class="text-center">
+            <p>&copy; Philip Wong 2016. All Rights Reserved.</p>
+            <p>Designed by <a target="_blank" href="https://pw5a29.github.io">Philip Wong</a></p>
+        </div>
+    </div>
+    
+</footer>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>   
+</body>
 </html>
