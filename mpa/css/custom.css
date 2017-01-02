@@ -1,0 +1,53 @@
+
+/*Home Intro*/
+
+.row.fw-row .v-box-wrap .v-box-inner {
+    padding: 12%;
+}
+
+.row.fw-row .v-box-wrap .v-box-inner.no-padding {
+    padding: 0%;
+}
+
+.row.fw-row .v-box-wrap .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*End Home Intro*/
+
+
+.ui-widget-content a {
+    color: #333333;
+}
+
+.ui-widget-content a:hover {
+    color: #1dc6df;
+}
+
+    /*Custom Size*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    body.boxed-layout {
+        width: 1140px;
+    }
+
+        body.boxed-layout header {
+            max-width: 1140px;
+        }
+	
+}
+
+.v-container{
+    padding-top:70px !important;
+    padding-bottom:70px !important;
+}
+
+.v-container-2x{
+    padding-top:100px !important;
+    padding-bottom:100px !important;
+}
