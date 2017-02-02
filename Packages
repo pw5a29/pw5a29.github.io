@@ -255,46 +255,31 @@ Author: pw5a29
 Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
 Name: HTC Emoji 9.1+
 
-Package: com.pw5a29.speedintensifier
-Version: 10.0-1
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, preferenceloader, applist
-Filename: debs//si1001.deb
-Size: 61068
-MD5sum: a318072e8e2123a51dbf2fbd7e99026c
-SHA1: c5b2dcc8844c276c24e9f92285eac0581f335007
-SHA256: 07e9109dda11e35a520cbd2f9bd18dad7ace71c80f6dc2d8fa3271c9724fccc9
-Section: Tweaks
-Description: Speeds up iOS Animations
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
-Name: Speed Intensifier (beta)
-
 Package: com.pw5a29.speedyhomey
-Version: 2.0-1
+Version: 2.0-2
 Architecture: iphoneos-arm
-Maintainer: Philip Wong
+Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
-Filename: debs//SpeedyHomey201.deb
-Size: 7614
-MD5sum: feceb3d61b527f09585196357784b709
-SHA1: 4648116ac576e76c445613b5c6a71c2ea97b3de3
-SHA256: 1a13e7a248951d7e67a00d3dd016ed5b7994af63ef7986af36ec7d4f669e7589
+Filename: debs//SpeedyHomey202.deb
+Size: 7650
+MD5sum: 82ecfe28209b475da95c674281f5d2ff
+SHA1: 74b5c0ec5d7674d4f447c4ecffb9693ce23dd3f6
+SHA256: 0335a84f13a0cfb64a7d79d354d78751fb25b54302b80a46f3a9bf9d0fd06e08
 Section: Tweaks
 Description: Speeds up home button response by disable multiple clicks
+Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedyhomey/index.html
-Author: Philip Wong
 Name: Speedy Homey
 
 Package: com.pw5a29.speedintensifier
-Version: 10.0-2
+Version: 10.0-3
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, applist
-Filename: debs//si1002.deb
-Size: 60802
-MD5sum: fe3406d0cbd683aec224e147e6bd47c4
-SHA1: 3992a1d0284ed202d2a953a8b422972b0b45df6e
-SHA256: 6429b00282d0ecba4f1733005c78c77e2d0ea447aed528842befd4a6691295d5
+Filename: debs//si1003.deb
+Size: 60244
+MD5sum: 54dd160ca09849933aac182d2d8d2b49
+SHA1: afeccf625762005f657997f8d05e1bc09487193d
+SHA256: 8f6f25b975e8154ac7b67b3c2f56f07cd3197133e3c7b34431b258bd24fb5ba8
 Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
