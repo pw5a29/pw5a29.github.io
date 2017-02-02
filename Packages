@@ -1,146 +1,32 @@
-Package: com.myrepospace.pw5a29ip4.aniweather1
-Version: 2.0-3
+Package: com.modmyi.emojione2016theme
+Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//aniweatherhk_2.0-3.deb
-Size: 1718342
-MD5sum: 701b7734e53f13aaf93ebe1624a516b7
-SHA1: 30ac831c195dc6163aab269534355c7a75d51564
-SHA256: 9bc04b612f614c502fa8bdc15ffed20ea17be77a5e3ec89432cbde656743573b
-Section: Tweaks
-Description: Animated weather on your homescreen
+Depends: com.bytafont.bytafont3
+Filename: debs//emojione2.deb
+Size: 61161308
+MD5sum: 70add99a6af06de32d5be7738236659b
+SHA1: 802012f0c61be7637d449507e207cd3f3c737fcc
+SHA256: 8326fb8cf0ffec7089724afe2c37b0c8bb04606304bc87afff18b738b0e7634f
+Section: Fonts (BytaFont 3)
+Description: Ported from EmojiOne 2016 Collection
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/aniweather/index.html
-Name: AniWeather
+Depiction: http://pw5a29.github.io/Depic/emojione/index.html
+Name: EmojiOne 2016 Theme
 
-Package: com.myrepospace.pw5a29ip4.bluetickskiller
-Version: 1.0-2
+Package: com.modmyi.emojione2016themeios8
+Version: 0.9-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//btk_1.0-2.deb
-Size: 4322
-MD5sum: f26845e2bf0cf3bacf71262d9498eed5
-SHA1: 165ea771efeb43df85c3cf0bee3f3a73184eabc8
-SHA256: 0d0d43fb51a3c8a9fecf860d21fd39bcf693cc575dd88e84c041a8b9de8d5d51
-Section: Tweaks
-Description: Disable WhatsApp double blue ticks
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/bluetickskiller/index.html
-Name: Blue Ticks Killer
-
-Package: com.myrepospace.pw5a29ip4.ios9chinesefont
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
-Filename: debs//com.myrepospace.pw5a29ip4.ios9chinesefont_1.0-1.deb
-Size: 39740092
-MD5sum: d90776b1ece044a00577a01b67f832c7
-SHA1: fac40d3d7669f2902c7ce35fdf8f4f8dd72696aa
-SHA256: d28e3acae31c83b877a53e753ae1e9b695d9f6e98f9e231f07bbff10a4833d56
+Filename: debs//emoji8.deb
+Size: 34451858
+MD5sum: e514b5e9cc5cc37dde11deb99039b91d
+SHA1: 67be7997f66347bda64e8dc9a82ebcdb14d639f9
+SHA256: a0e9050017335df51048617310e4e6c87d98d3b81361de184a32c9c88a151056
 Section: Fonts (BytaFont 2)
-Description: Official iOS 9 Chinese font
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/ios9chinesefont/index.html
-Name: iOS 9 Chinese Font
-
-Package: com.myrepospace.pw5a29ip4.ios9englishfont
-Version: 1.0-4
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont2
-Filename: debs//ios9english104.deb
-Size: 21724360
-MD5sum: cda8820df78854e19c238806da4fb23a
-SHA1: e80ff044017b2b01f00dfc59f00ebeb60378c88f
-SHA256: ee40cedd192901f494e2b60f00302d3fc1ce1ec3fa64af252dea5ed6eb3c4689
-Section: Fonts (BytaFont 2)
-Description: Official iOS 9 English font
-Author: dbk1ng
-Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
-Name: iOS 9 English Font
-
-Package: com.myrepospace.pw5a29ip4.whatsappdebug
-Version: 0.0.1-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//com.pw5a29.whatsappdebug_0.0.1-1_iphoneos-arm.deb
-Size: 4020
-MD5sum: 07081e3f37026adad7e79e9d8d5862d3
-SHA1: 8e980cf0b99987baffbb64c1900f6bc9a7da3c00
-SHA256: f2af8a5c856f575648e1b4d2fbffe6e71a80678879d01e3b4738abfc52f2bcc4
-Section: Tweaks
-Description: Enable Beta debug menu
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/whatsappdebug/index.html
-Name: WhatsApp Debug Enable
-
-Package: com.myrepospace.pw5a29ip4.camerashutterdisabler
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.ericasadun.utilities
-Filename: debs//DisableCameraShutter_1.2.deb
-Size: 30826
-MD5sum: 07081e3f37026adad7e79e9d8d5862d3
-SHA1: 13df11751caa0437912742568c381bdc54491842
-SHA256: 0cd3c13eac056c2fa491d33e9a7ed3b4d47025eaafc7a69356b04dca39b69ef0
-Section: Tweaks
-Description: Disable photo shutter, video and voice memo beep
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/disablecamerashutter/index.html
-Name: Disable Photo Shutter Sound
-
-Package: com.myrepospace.pw5a29ip4.ios7betafont
-Version: 2.0-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont2
-Filename: debs//ios7betafont_2.0-1.deb
-Size: 12944158
-MD5sum: 8ed8c47d8a33d41a0bab3d2166516c87
-SHA1: 8a6d302ee57fc2f8e4b7684fb5d1dedbb0a93f39
-SHA256: 48b1dc0f7d33046834783e169e9a36be5fcdf7e45824aa5d9dc9549c4048e015
-Section: Fonts (BytaFont 2)
-Description: Thinner font from iOS 7 beta
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/ios7betafont/index.html
-Name: iOS 7 Beta Font
-
-Package: com.myrepospace.pw5a29ip4.colorbootlogo
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: winterboard
-Filename: debs//ios7Bootlogo_1.0-2.deb
-Size: 61992
-MD5sum: 9235f882efc1107142ccea0068e9e4e0
-SHA1: 21cb8df437bb96ea8d9d7182a1bd206532bc1e9c
-SHA256: d0b383d714adfada6cf0d9ed04a36240698c07d4d7116eba787693e8c18d1a92
-Section: Themes
-Description: Color Apple bootlegs come with 8 themes
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/ios7bootlogo/index.html
-Name: Color Bootlogos
-
-Package: com.myrepospace.pw5a29ip4.livebatteryindicator
-Version: 2.7-2
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//LBIiOS6_2.7-2.deb
-Size: 1490776
-MD5sum: 1dc73a389f93dc0c4a65fbf6a061ca1c
-SHA1: 975e9e3f668255f16f24d6176147dbe24f4b3d66
-SHA256: 881c39f65422b04070c1597615f9956c5850760e7e2614b475fa1a035e9933a1
-Section: Tweaks
-Description: Merges battery and percentage in one circular indicator
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/lbiios6/index.html
-Name: Live Battery Indicator iOS 6
+Description: Ported from EmojiOne 2016 Collection for iOS 8
+Author: pw5a29
+Name: EmojiOne 2016 Theme iOS 8
 
 Package: com.modmyi.livebatteryindicatorios7
 Version: 3.0-1
@@ -158,139 +44,112 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/lbiios7/index.html
 Name: Live Battery Indicator iOS 8
 
-Package: com.myrepospace.pw5a29ip4.locationdkiller
-Version: 1.0-6
+Package: com.myrepospace.pw5a29ip4.aniweather1
+Version: 2.0-3
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: gawk, adv-cmds
-Filename: debs//locationd1.0-6.deb
-Size: 1530
-MD5sum: 7ba9b739bcb79f48b5483af0c7f0753a
-SHA1: 8f519f76a4950dbe9c170f2bd23900fd89057272
-SHA256: c487827e5723888c1d860491fec01d51bc5e7f241302ae22a5af0c3997f404a9
-Section: Tweaks
-Description: Autokill locationd when spikes up CPU
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/locationdkiller/index.html
-Name: locationd Killer
-
-Package: com.pw5a29.speedintensifier
-Version: 8.9-4
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Filename: debs//speedintensifier894.deb
-Size: 56610
-MD5sum: 8e4599f7d9cc26e23372ca7e1d2d5a8d
-SHA1: 90365b1106730207901f251eac6f1bca5c5f046e
-SHA256: 49646e07aced9ac4df8582c3d7a64ee8bed01a1eb1586fe9f53aa93f99489921
-Section: Tweaks
-Description: Speeds up iOS Animations
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
-Name: Speed Intensifier
-
-Package: com.pw5a29.swipeselection
-Version: 1.4.3-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.iky1e.swipeselection
-Filename: debs//swipe143.deb
-Size: 14466
-MD5sum: 44a93056f251223a7bd02ddc02892132
-SHA1: 105251bff47cb98822b393b558a6587f516035eb
-SHA256: 7281818d883a0eeebaa7d13c838df3026fd330a416a2ee639755473b44517804
-Section: Tweaks
-Description: keyboard swipes move curses & select text
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/swipeselection/index.html
-Name: SwipeSelection
-
-Package: com.pw5a29.actualbattery
-Version: 2.1-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
+Maintainer: Myrepospace
 Depends: mobilesubstrate
-Filename: debs//actual211.deb
-Size: 17636
-MD5sum: 3894eb247b4a43b16a14286e9a17e51d
-SHA1: 2506fb43c465afac537f9b2647dc8b1d2485d57e
-SHA256: 7cd81b4d07b8b27fa78731be650581f3f72f338aabe6c0f84d28d1e743207bd1
+Filename: debs//aniweatherhk_2.0-3.deb
+Size: 1718342
+MD5sum: 701b7734e53f13aaf93ebe1624a516b7
+SHA1: 30ac831c195dc6163aab269534355c7a75d51564
+SHA256: 9bc04b612f614c502fa8bdc15ffed20ea17be77a5e3ec89432cbde656743573b
 Section: Tweaks
-Description: Show true battery in percentage by remaining mah and total capacity
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/actualbattery/index.html
-Name: Actual Battery
+Description: [iOS 4-7] Animated weather on your homescreen
+Author: wyndwarrior
+Name: AniWeather Hong Kong
 
-Package: com.pw5a29.htcemojifont
-Version: 1.2-1
+Package: com.myrepospace.pw5a29ip4.bluetickskiller
+Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont2
-Filename: debs//htc1.2-1.deb
-Size: 40493602
-MD5sum: 29d0d9519df1c163d5026c870a69b8db
-SHA1: a34e0c308391def8e8f6e3be275ad8978bd2c55a
-SHA256: c9628e0807666073973cf2fc753ff8a0f0f56de52e063fcadaffa08ffa72433f
-Section: Fonts (BytaFont 2)
-Description: Custom HTC font (HTC+EmojiOne)
-Author: xXBaKeRXv/pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
-Name: HTC Emoji 8.3+
+Maintainer: pw5a29
+Depends: mobilesubstrate
+Filename: debs//btk_1.0-2.deb
+Size: 4322
+MD5sum: f26845e2bf0cf3bacf71262d9498eed5
+SHA1: 165ea771efeb43df85c3cf0bee3f3a73184eabc8
+SHA256: 0d0d43fb51a3c8a9fecf860d21fd39bcf693cc575dd88e84c041a8b9de8d5d51
+Section: Tweaks
+Description: Disable WhatsApp double blue ticks
+Author: pw5a29
+Name: Blue Ticks Killer
 
-Package: com.pw5a29.htcemojifont
-Version: 1.1-3
+Package: com.myrepospace.pw5a29ip4.camerashutterdisabler
+Version: 1.2
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont2
-Filename: debs//htcemoji1.1-3.deb
-Size: 30494896
-MD5sum: 1c5acc2aa9cbc84dc263d3b334bbc12d
-SHA1: e6a1ff2e3d99bca2c5eb3238cc117862c5f8dca5
-SHA256: ca933aea92fe787980059a63fcdeb5f1f253195114470928cdc4f103455c4535
-Section: Fonts (BytaFont 2)
-Description: Custom HTC font (HTC+EmojiOne)
-Author: xXBaKeRXv/pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
-Name: HTC Emoji 8.3+
+Maintainer: Myrepospace
+Depends: com.ericasadun.utilities
+Filename: debs//DisableCameraShutter_1.2.deb
+Size: 30826
+MD5sum: 07081e3f37026adad7e79e9d8d5862d3
+SHA1: 13df11751caa0437912742568c381bdc54491842
+SHA256: 0cd3c13eac056c2fa491d33e9a7ed3b4d47025eaafc7a69356b04dca39b69ef0
+Section: Tweaks
+Description: This tweak would disable the photo shutter, video, and voice memo sound
+Author: pw5a29
+Name: Disable Photo Shutter Sound
 
-Package: com.pw5a29.htcemojifont
-Version: 1.1-1
+Package: com.myrepospace.pw5a29ip4.colorbootlogo
+Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont2
-Filename: debs//htcemoji1.1-1.deb
-Size: 38311482
-MD5sum: bf5ffa0bece54204f4fa344835635890
-SHA1: 00f4eadf9191a0ab58a4a1d3c818388a03949c9e
-SHA256: 7100a313eeea537e7910db9a0c8f92392f99e657b3cf4118b61827c6c8dd97a1
-Section: Fonts (BytaFont 2)
-Description: Custom HTC font (HTC+EmojiOne)
-Author: xXBaKeRXv/pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
-Name: HTC Emoji 8.3+
+Depends: winterboard
+Filename: debs//ios7Bootlogo_1.0-2.deb
+Size: 61992
+MD5sum: 9235f882efc1107142ccea0068e9e4e0
+SHA1: 21cb8df437bb96ea8d9d7182a1bd206532bc1e9c
+SHA256: d0b383d714adfada6cf0d9ed04a36240698c07d4d7116eba787693e8c18d1a92
+Section: Themes
+Priority: extra
+Description: Color bootlogos for iOS 7
+Author: Gmolittieri
+Name: Color Bootlogos
 
-Package: com.pw5a29.htcemojifont
+Package: com.myrepospace.pw5a29ip4.ios7betafont
+Version: 2.0-1
+Architecture: iphoneos-arm
+Depends: com.bytafont.bytafont2
+Filename: debs//ios7betafont_2.0-1.deb
+Size: 12944158
+MD5sum: 8ed8c47d8a33d41a0bab3d2166516c87
+SHA1: 8a6d302ee57fc2f8e4b7684fb5d1dedbb0a93f39
+SHA256: 48b1dc0f7d33046834783e169e9a36be5fcdf7e45824aa5d9dc9549c4048e015
+Section: Fonts (BytaFont 2)
+Description: Thin font from iOS 7 Beta 1
+Author: Longhanks & pw5a29
+Name: iOS 7 Beta Font
+
+Package: com.myrepospace.pw5a29ip4.ios9chinesefont
 Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
-Filename: debs//htc.deb
-Size: 38316864
-MD5sum: 9532cbdc857972ca3c81425bde68e91b
-SHA1: 7bc950f26520036524686878b3c94b536eb4981b
-SHA256: 76ab7171263958057c093e6d742978f133f9ed5fe7e7f854b0f24230a97c3303
+Filename: debs//com.myrepospace.pw5a29ip4.ios9chinesefont_1.0-1.deb
+Size: 39740092
+MD5sum: d90776b1ece044a00577a01b67f832c7
+SHA1: fac40d3d7669f2902c7ce35fdf8f4f8dd72696aa
+SHA256: d28e3acae31c83b877a53e753ae1e9b695d9f6e98f9e231f07bbff10a4833d56
 Section: Fonts (BytaFont 2)
-Description: Custom HTC font (HTC+EmojiOne)
-Author: xXBaKeRXv/pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
-Name: HTC Emoji 8.3+
+Description: Chinese Font from iOS 9
+Author: pw5a29
+Name: iOS 9 Chinese Font
+
+Package: com.myrepospace.pw5a29ip4.ios9englishfont
+Version: 1.0-4
+Architecture: iphoneos-arm
+Depends: com.bytafont.bytafont2
+Filename: debs//ios9english104.deb
+Size: 21724360
+MD5sum: cda8820df78854e19c238806da4fb23a
+SHA1: e80ff044017b2b01f00dfc59f00ebeb60378c88f
+SHA256: ee40cedd192901f494e2b60f00302d3fc1ce1ec3fa64af252dea5ed6eb3c4689
+Section: Fonts (BytaFont 2)
+Description: English Font from iOS 9, ported by dbk1ng
+Author: dbk1ng
+Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
+Name: iOS 9 English Font
 
 Package: com.myrepospace.pw5a29ip4.ios9englishfontrounded
 Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: com.bytafont.bytafont2
 Filename: debs//ios9round1.0-2.deb
 Size: 20719686
@@ -303,101 +162,52 @@ Author: dbk1ng
 Depiction: http://pw5a29.github.io/Depic/ios9englishfont/index.html
 Name: iOS 9 English Font Rounded
 
-Package: com.pw5a29.htcemojifont9
-Version: 1.2-1
+Package: com.myrepospace.pw5a29ip4.livebatteryindicator
+Version: 2.7-2
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont3
-Filename: debs//htc9.deb
-Size: 40493634
-MD5sum: 38998a200bd715dac078a85046a2f81e
-SHA1: 36d209c4edc7075991e143b953a138c6c2329d74
-SHA256: 95efc77271a905d4d774433acc0a5948798c84ae0e69948c6f1ad17e50473f3e
-Section: Fonts (BytaFont 3)
-Description: Custom HTC font (HTC+EmojiOne)
-Author: pw5a29
-Depiction: http://pw5a29.github.io/Depic/htcemojifont9/index.html
-Name: HTC Emoji 9.1+
-
-Package: com.modmyi.emojione2016theme
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont3
-Filename: debs//emojione102.deb
-Size: 34451880
-MD5sum: 7514e02d2c35ad8ab241194e385a91b1
-SHA1: aef5d718db065583f59d8e9404e03285d249b051
-SHA256: 4a7c6959e4e2a8db33eea896e1816d8f2c249fbb3938e34cb27ef1a25c73f8e8
-Section: Fonts (BytaFont 3)
-Description: Ported from EmojiOne 2016 Collection
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/emojione/index.html
-Name: EmojiOne 2016 Theme
-
-Package: com.modmyi.emojione2016theme
-Version: 1.2-1
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont3
-Filename: debs//emojione121.deb
-Size: 41966086
-MD5sum: b2c0083b764cca5037e037aa4ccd6d58
-SHA1: 821d0a7344cb49116e426811194da208decb6f11
-SHA256: a12b0aa7412a742fee2be0e5523df74cab092524140f7c3359ff8b2fd6a30942
-Section: Fonts (BytaFont 3)
-Description: Ported from EmojiOne 2016 Collection
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/emojione/index.html
-Name: EmojiOne 2016 Theme
-
-Package: com.modmyi.emojione2016themeios8
-Version: 0.9-2
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont2
-Filename: debs//emoji8.deb
-Size: 34451858
-MD5sum: e514b5e9cc5cc37dde11deb99039b91d
-SHA1: 67be7997f66347bda64e8dc9a82ebcdb14d639f9
-SHA256: a0e9050017335df51048617310e4e6c87d98d3b81361de184a32c9c88a151056
-Section: Fonts (BytaFont 2)
-Description: Ported from EmojiOne 2016 Collection for iOS 8
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/emojione/index.html
-Name: EmojiOne 2016 Theme iOS 8
-
-Package: com.modmyi.emojione2016theme
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: com.bytafont.bytafont3
-Filename: debs//emojione2.deb
-Size: 61161308
-MD5sum: 70add99a6af06de32d5be7738236659b
-SHA1: 802012f0c61be7637d449507e207cd3f3c737fcc
-SHA256: 8326fb8cf0ffec7089724afe2c37b0c8bb04606304bc87afff18b738b0e7634f
-Section: Fonts (BytaFont 3)
-Description: Ported from EmojiOne 2016 Collection
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/emojione/index.html
-Name: EmojiOne 2016 Theme
-
-Package: com.pw5a29.speedintensifier
-Version: 9.1-4
-Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist
-Filename: debs//si914.deb
-Size: 60938
-MD5sum: 61789166f98c6936f825583182cf67b4
-SHA1: 03b3493f2643386a28b684f19ab0ca2c3d1eda3a
-SHA256: 3c0f49d3455623cef8202306004d19b7b87098d9fca705157c81fed29a0dafe4
+Maintainer: Philip Wong
+Depends: mobilesubstrate, libstatusbar, preferenceloader
+Filename: debs//LBIiOS6_2.7-2.deb
+Size: 1490776
+MD5sum: 1dc73a389f93dc0c4a65fbf6a061ca1c
+SHA1: 975e9e3f668255f16f24d6176147dbe24f4b3d66
+SHA256: 881c39f65422b04070c1597615f9956c5850760e7e2614b475fa1a035e9933a1
 Section: Tweaks
-Description: Speeds up iOS Animations
+Description: Merges battery and percentage in one circular indicator
+Author: Philip Wong
+Name: Live Battery Indicator
+
+Package: com.myrepospace.pw5a29ip4.locationdkiller
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: gawk, adv-cmds
+Filename: debs//locationd1.0-6.deb
+Size: 1530
+MD5sum: 7ba9b739bcb79f48b5483af0c7f0753a
+SHA1: 8f519f76a4950dbe9c170f2bd23900fd89057272
+SHA256: c487827e5723888c1d860491fec01d51bc5e7f241302ae22a5af0c3997f404a9
+Section: Tweaks
+Priority: extra
+Description: Autokill locationd when spikes up CPU
 Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
-Name: Speed Intensifier
+Name: locationd Killer
+
+Package: com.myrepospace.pw5a29ip4.whatsappdebug
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: pw5a29
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs//com.pw5a29.whatsappdebug_0.0.1-1_iphoneos-arm.deb
+Size: 4020
+MD5sum: ed758ec2f79078aa05cdb0fd773053dc
+SHA1: 8e980cf0b99987baffbb64c1900f6bc9a7da3c00
+SHA256: f2af8a5c856f575648e1b4d2fbffe6e71a80678879d01e3b4738abfc52f2bcc4
+Section: Tweaks
+Description: Enable Beta debug menu in WhatsApp
+Author: pw5a29
+Name: WhatsApp Debug Enable
 
 Package: com.pw5a29.4gtolte
 Version: 1.1-1
@@ -415,20 +225,35 @@ Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/4gtolte/index.html
 Name: 4G to LTE
 
-Package: com.pw5a29.speedintensifier
-Version: 9.4-1
+Package: com.pw5a29.htcemojifont
+Version: 1.2-1
 Architecture: iphoneos-arm
-Depends: mobilesubstrate, preferenceloader, applist
-Filename: debs//si941.deb
-Size: 61882
-MD5sum: 480561371e84a648685e2b567d1e865f
-SHA1: 6085de5d83a28ce03976416151243d5895a3e5dd
-SHA256: 5e4fcaf14d40b2df747da689dc96e39c1bcd9cae6973471d9c89dd6c859796f6
-Section: Tweaks
-Description: Speeds up iOS Animations
-Author: pw5a29 <pw5a29@gmail.com>
-Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
-Name: Speed Intensifier
+Depends: com.bytafont.bytafont2
+Filename: debs//htc1.2-1.deb
+Size: 40493602
+MD5sum: 29d0d9519df1c163d5026c870a69b8db
+SHA1: a34e0c308391def8e8f6e3be275ad8978bd2c55a
+SHA256: c9628e0807666073973cf2fc753ff8a0f0f56de52e063fcadaffa08ffa72433f
+Section: Fonts (BytaFont 2)
+Description: Custom HTC font (HTC+EmojiOne)
+Author: pw5a29
+Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
+Name: HTC Emoji 8.3+
+
+Package: com.pw5a29.htcemojifont9
+Version: 1.2-1
+Architecture: iphoneos-arm
+Depends: com.bytafont.bytafont3
+Filename: debs//htc9.deb
+Size: 40493634
+MD5sum: 38998a200bd715dac078a85046a2f81e
+SHA1: 36d209c4edc7075991e143b953a138c6c2329d74
+SHA256: 95efc77271a905d4d774433acc0a5948798c84ae0e69948c6f1ad17e50473f3e
+Section: Fonts (BytaFont 3)
+Description: Custom HTC font (HTC+EmojiOne)
+Author: pw5a29
+Depiction: http://pw5a29.github.io/Depic/htcemojifont/index.html
+Name: HTC Emoji 9.1+
 
 Package: com.pw5a29.speedintensifier
 Version: 10.0-1
@@ -443,12 +268,12 @@ Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
-Name: Speed Intensifier (Beta)
+Name: Speed Intensifier (beta)
 
 Package: com.pw5a29.speedyhomey
 Version: 2.0-1
 Architecture: iphoneos-arm
-Maintainer: pw5a29 <pw5a29@gmail.com>
+Maintainer: Philip Wong
 Depends: mobilesubstrate
 Filename: debs//SpeedyHomey201.deb
 Size: 7614
@@ -457,6 +282,6 @@ SHA1: 4648116ac576e76c445613b5c6a71c2ea97b3de3
 SHA256: 1a13e7a248951d7e67a00d3dd016ed5b7994af63ef7986af36ec7d4f669e7589
 Section: Tweaks
 Description: Speeds up home button response by disable multiple clicks
-Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedyhomey/index.html
-Name: Speedy Homey (Beta)
+Author: Philip Wong
+Name: Speedy Homey
