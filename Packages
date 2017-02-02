@@ -287,17 +287,17 @@ Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
 Name: Speed Intensifier (beta)
 
 Package: com.pw5a29.speedyhomey
-Version: 2.0-3
+Version: 2.0-4
 Architecture: iphoneos-arm
 Maintainer: pw5a29 <pw5a29@gmail.com>
 Depends: mobilesubstrate
-Filename: debs//SpeedyHomey203.deb
-Size: 7712
-MD5sum: 5dd8e3a7d35958a62d41ec958aac8b51
-SHA1: e1fdb4d4313e550e59fa4f465e06d96bdcec551d
-SHA256: 55dddf410fd8aae379483939c4866cc6909bb7113e29827a433edb722376f15c
+Filename: debs//SpeedyHomey204.deb
+Size: 7724
+MD5sum: a15bee4c140f6eebe83a8a5122266570
+SHA1: 3fcdc5ec78c08846d80732650b26786c40c5ff22
+SHA256: 2425dff31ea68a9ef46971a58e7f98c0170f7044041e7042009c50538fc15a72
 Section: Tweaks
 Description: Speeds up home button response by disable multiple clicks
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedyhomey/index.html
-Name: Speedy Homey
+Name: Speedy Homey (beta)
