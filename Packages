@@ -272,14 +272,14 @@ Depiction: http://pw5a29.github.io/Depic/speedyhomey/index.html
 Name: Speedy Homey
 
 Package: com.pw5a29.speedintensifier
-Version: 10.0-3
+Version: 10.0-4
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, applist
-Filename: debs//si1003.deb
-Size: 60244
-MD5sum: 54dd160ca09849933aac182d2d8d2b49
-SHA1: afeccf625762005f657997f8d05e1bc09487193d
-SHA256: 8f6f25b975e8154ac7b67b3c2f56f07cd3197133e3c7b34431b258bd24fb5ba8
+Filename: debs//si1004.deb
+Size: 60238
+MD5sum: b3a1c7b2c2b7f55b262760769664b4c8
+SHA1: 06bb58b1851876b4d72be1527757859fbba763df
+SHA256: 07668840a103f8d79bfcb3988731ef73cf63397305d69df65cc5aa545bcaa906
 Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
@@ -300,4 +300,4 @@ Section: Tweaks
 Description: Speeds up home button response by disable multiple clicks
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedyhomey/index.html
-Name: Speedy Homey (beta)
+Name: Speedy Homey
