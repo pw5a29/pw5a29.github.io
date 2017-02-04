@@ -301,3 +301,18 @@ Description: Speeds up home button response by disable multiple clicks
 Author: pw5a29 <pw5a29@gmail.com>
 Depiction: http://pw5a29.github.io/Depic/speedyhomey/index.html
 Name: Speedy Homey
+
+Package: com.pw5a29.speedintensifier
+Version: 10.0-8
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs//si1008.deb
+Size: 60494
+MD5sum: ed8e52e71bb9d1975afae5f71942f94f
+SHA1: 4e299c05d8fbd7d44f2f09c3d32338cf43658bd3
+SHA256: ae56dfb694032342dcd8d1b8bd7f87b3086f5aa076278d530dd0e665677c0f83
+Section: Tweaks
+Description: Speeds up iOS Animations
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://pw5a29.github.io/Depic/speedintensifier/index.html
+Name: Speed Intensifier
