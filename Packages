@@ -307,10 +307,10 @@ Version: 10.0-8
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, applist
 Filename: debs//si1008.deb
-Size: 60494
-MD5sum: ed8e52e71bb9d1975afae5f71942f94f
-SHA1: 4e299c05d8fbd7d44f2f09c3d32338cf43658bd3
-SHA256: ae56dfb694032342dcd8d1b8bd7f87b3086f5aa076278d530dd0e665677c0f83
+Size: 60380
+MD5sum: 043e93cac31812102544a249e7319521
+SHA1: b8e01a5a81e44dc292594607ab96452c3d0c56b2
+SHA256: ec7b6b6fd3cb7c410524c587a6b617046d05dffe05450aa51cb5edfe7b5e3879
 Section: Tweaks
 Description: Speeds up iOS Animations
 Author: pw5a29 <pw5a29@gmail.com>
