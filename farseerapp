@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+<script>
+function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // Windows Phone must come first because its UA also contains "Android"
+    if (/windows phone/i.test(userAgent)) {
+        return "Windows Phone";
+    }
+
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return "iOS";
+    }
+
+    return "unknown";
+}</script>
+
+<script>
+function DetectAndServe(){
+
+if (getMobileOperatingSystem() == "Android") {
+    window.location.href = "http://47.89.25.177/Public/app/last.apk"; 
+    }
+if (getMobileOperatingSystem() == "iOS") {
+    window.location.href = "https://itunes.apple.com/hk/app/farseer-%E6%B4%9E%E8%A7%86%E6%99%BA%E6%B1%87/id1308111909?l=en&mt=8";
+    }
+if (getMobileOperatingSystem() == "Windows Phone") {
+    window.location.href = "http://www.farseerbi.com/home/index/downloads.html";
+    }
+if (getMobileOperatingSystem() == "unknown") {
+  window.location.href = "http://www.farseerbi.com/home/index/downloads.html";}
+};
+</script>
+</head>
+<body onload="DetectAndServe()">
+</body>
+</html>
