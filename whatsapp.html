@@ -56,17 +56,17 @@
                 <table>
                     <tbody>
                         <tr>
-                            <td width="100px"><label  for="tbIdentifier">識別代號: </label></td>
+                            <td width="100px"><label  for="tbIdentifier">Unique identifier: </label></td>
                             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                             <td><input   type="text" name="tbIdentifier" id="tbIdentifier"></td>
                         </tr>
                         <tr>
-                            <td><label for="tbPack">貼圖包名稱: </label></td>
+                            <td><label for="tbPack">Pack name: </label></td>
                             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                             <td><input   type="text" name="tbPack" id="tbPack"></td>
                         </tr>
                         <tr>
-                            <td><label for="tbPublisher">作者: </label></td>
+                            <td><label for="tbPublisher">Author: </label></td>
                             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                             <td><input   type="text" name="tbPublisher" id="tbPublisher"></td>
                         </tr>
@@ -74,14 +74,14 @@
                             <td colspan="3"><br></td>
                         </tr>
                         <tr>
-                            <td><label for="btnTrayIcon">貼圖包圖示:</label></td>
+                            <td><label for="btnTrayIcon">Pack thumbnail:</label></td>
                             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                             <td><input accept="image/*"   type="file" name="btnTrayIcon" id="btnTrayIcon"><br>
                             <div id="trayiconcell"></div></td>
                         </tr>
                         
                         <tr>
-                            <td><label for="btnStickers">貼圖:</label></td>
+                            <td><label for="btnStickers">Stickers:</label></td>
                             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                             <td><input accept="image/*"  multiple type="file" name="btnStickers" id="btnStickers"></td>
                         </tr>
@@ -101,7 +101,7 @@
                 <div id="hiddenCanvas"></div>
                 
                 <br><br>
-                <input  id="btnGenerate" onclick="genJSON()"  type="button" value="生成JSON檔案">
+                <input  id="btnGenerate" onclick="genJSON()"  type="button" value="Export JSON">
                     
                     
             </form>
@@ -127,7 +127,7 @@
                 
                 if(($("#tbIdentifier").val()=="")||($("#tbPack").val()=="")||($("#tbPublisher").val()=="")){
                     
-                    alert("請輸入:\n- 識別代號\n- 貼圖包名稱\n- 作者")
+                    alert("Please enter:\n- identifier\n- pack name\n- author")
                     
                     
                 } else{
@@ -136,7 +136,7 @@
                         
                         if ($("#cTrayIcon").length == 0) {
                             
-                            alert("請選擇貼圖包圖示")
+                            alert("Please select thumbnail")
                             
                         } else{
                             
@@ -192,7 +192,7 @@ tempContext.drawImage(tempImg, 0, 0);
                         
                         
                     }else{
-                        alert('圖包應包括3-30張貼圖')
+                        alert('Pack should include 3-30 stickers')
                     }
                     
                 }
