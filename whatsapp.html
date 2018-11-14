@@ -155,17 +155,15 @@
                                                                 
                                                                 
                                                                 
-                                                                var tempCanvas  =  document.createElement("canvas");
-                                                                document.getElementById("hiddenCanvas").appendChild(tempCanvas);
+var tempCanvas  =  document.createElement("canvas");
+document.getElementById("hiddenCanvas").appendChild(tempCanvas);
+tempCanvas.width=512;
+tempCanvas.height=512;
+var tempContext  =  tempCanvas.getContext('2d');
+var tempImg  = new Image();
+tempImg.src =  $(this).attr('src');
+tempContext.drawImage(tempImg, 0, 0);
 
-                                                                
-                                                                
-                                                                var tempContext  =  tempCanvas.getContext('2d');
-                                                                var tempImg  = new Image();
-                                                                
-                                                                
-                                                                tempImg.src =  $(this).attr('src');
-                                                                tempContext.drawImage(tempImg, 0, 0);
                                                                 
                                                                 
                                                                 
