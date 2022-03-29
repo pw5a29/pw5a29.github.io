@@ -4,13 +4,15 @@
     <meta charset="utf-8" />
 <script>
 function getMobileOperatingSystem() {
-  var userAgent = navigator.userAgent || navigator.platform || navigator.vendor || window.opera;
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+    if (/huawei/.test(userAgent)) {
+        return "Huawei";
+    }
     if (/android/i.test(userAgent)) {
         return "Android";
     }
-    //Haven't tried this. Added after iPadOS13
-    if (/MacIntel/.test(userAgent) && navigator.maxTouchPoints > 2) {
+    if (/MacIntel/.test(navigator.platform) && navigator.maxTouchPoints > 2) {
         return "iPad";
     }
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
@@ -23,17 +25,20 @@ function getMobileOperatingSystem() {
 <script>
 function DetectAndServe(){
 
+if (getMobileOperatingSystem() == "Huawei") {
+    window.location.href = "https://appgallery.huawei.com/#/app/C102124967"; 
+    }
 if (getMobileOperatingSystem() == "Android") {
-    window.location.href = "https://hk.yahoo.com/"; 
+    window.location.href = "https://play.google.com/store/apps/details?id=com.tvb.ott.overseas.sg"; 
     }
 if (getMobileOperatingSystem() == "iPad") {
-    window.location.href = "https://www.google.com.hk/";
+    window.location.href = "https://itunes.apple.com/hk/app/tvbanywhere/id1404301815?mt=8";
     }
 if (getMobileOperatingSystem() == "iOS") {
-    window.location.href = "https://www.tvbanywhere.com/";
+    window.location.href = "https://itunes.apple.com/hk/app/tvbanywhere/id1404301815?mt=8";
     }
 if (getMobileOperatingSystem() == "unknown") {
-  window.location.href = "https://fast.com/";}
+  window.location.href = "https://www.tvbanywhere.com/#download-app";}
 };
 </script>
 </head>
