@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
 <script>
 function getMobileOperatingSystem() {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  var userAgent = navigator.userAgent || navigator.platform || navigator.vendor || window.opera;
 
     if (/android/i.test(userAgent)) {
         return "Android";
     }
-    if (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 2) {
+    if (/MacIntel/.test(userAgent) && navigator.maxTouchPoints > 2) {
         return "iPad";
     }
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
@@ -23,16 +23,16 @@ function getMobileOperatingSystem() {
 function DetectAndServe(){
 
 if (getMobileOperatingSystem() == "Android") {
-    window.location.href = "http://sdeweb.hkcsl.com/dlpkg/data/csapp/app-ioio-release-6.37-uat-FCM-build13020_PUSH_INBOX_&_VAS.apk"; 
+    window.location.href = "https://hk.yahoo.com/"; 
     }
 if (getMobileOperatingSystem() == "iPad") {
-    window.location.href = "https://testflight.apple.com/join/Io2kYw6N";
+    window.location.href = "https://www.google.com.hk/";
     }
 if (getMobileOperatingSystem() == "iOS") {
-    window.location.href = "https://testflight.apple.com/join/Io2kYw6N";
+    window.location.href = "https://www.tvbanywhere.com/";
     }
 if (getMobileOperatingSystem() == "unknown") {
-  window.location.href = "http://www.1010.com.hk/jsp/home/index.jsp?language=tch";}
+  window.location.href = "https://fast.com/";}
 };
 </script>
 </head>
