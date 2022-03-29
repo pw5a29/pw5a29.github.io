@@ -9,6 +9,7 @@ function getMobileOperatingSystem() {
     if (/android/i.test(userAgent)) {
         return "Android";
     }
+    //Haven't tried this. Added after iPadOS13
     if (/MacIntel/.test(userAgent) && navigator.maxTouchPoints > 2) {
         return "iPad";
     }
