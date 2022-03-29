@@ -9,8 +9,9 @@ function getMobileOperatingSystem() {
     if (/android/i.test(userAgent)) {
         return "Android";
     }
-
-    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 2) {
+        return "iPad";
+    }
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         return "iOS";
     }
@@ -23,6 +24,9 @@ function DetectAndServe(){
 
 if (getMobileOperatingSystem() == "Android") {
     window.location.href = "http://sdeweb.hkcsl.com/dlpkg/data/csapp/app-ioio-release-6.37-uat-FCM-build13020_PUSH_INBOX_&_VAS.apk"; 
+    }
+if (getMobileOperatingSystem() == "iPad") {
+    window.location.href = "https://testflight.apple.com/join/Io2kYw6N";
     }
 if (getMobileOperatingSystem() == "iOS") {
     window.location.href = "https://testflight.apple.com/join/Io2kYw6N";
