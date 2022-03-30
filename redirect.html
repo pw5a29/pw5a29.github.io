@@ -6,7 +6,7 @@
 function getMobileOperatingSystem() {
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-    if (/HarmonyOS/.test(userAgent)) {
+    if (/HMSCore/.test(userAgent)) {
         return "Huawei";
     }
     if (/android/i.test(userAgent)) {
