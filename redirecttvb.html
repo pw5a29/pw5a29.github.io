@@ -4,14 +4,14 @@
         <script type="text/javascript">
 function startMyApp()
 {
-  document.location = 'tvbanywhere://';
+  window.location = 'tvbanywhere://';
   setTimeout( function()
   {
       if( confirm( 'You do not seem to have Your App installed, do you want to go download it now?'))
       {
-        document.location = 'https://ads.tvbanywhere.com/linkredirect/downloadapp.html';
+        window.location = 'https://ads.tvbanywhere.com/linkredirect/downloadapp.html';
       }
-  }, 300);
+  }, 500);
  }
 </script>
     </body>
