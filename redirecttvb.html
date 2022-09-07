@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <script type="text/javascript">
-function startMyApp()
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script>
+    function getMobileOperatingSystem() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/HMSCore/.test(userAgent)) {
+            return "Huawei";
+        }
+        if (/android/i.test(userAgent)) {
+            return "Android";
+        }
+        if (/MacIntel/.test(navigator.platform) && navigator.maxTouchPoints > 2) {
+            return "iPad";
+        }
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return "iOS";
+        }
+
+        return "unknown";
+    }</script>
+    <script>
+    function DetectAndServe()
 {
   window.location = 'tvbanywhere://';
   setTimeout( function()
   {
       if( confirm( 'You do not seem to have Your App installed, do you want to go download it now?'))
       {
-        window.location = 'https://ads.tvbanywhere.com/linkredirect/downloadapp.html';
+          if (getMobileOperatingSystem() == "Huawei") {
+              window.location.href = "https://appgallery.huawei.com/#/app/C102124967";
+              }
+          if (getMobileOperatingSystem() == "Android") {
+              window.location.href = "https://play.google.com/store/apps/details?id=com.tvb.ott.overseas.sg";
+              }
+          if (getMobileOperatingSystem() == "iPad") {
+              window.location.href = "https://itunes.apple.com/hk/app/tvbanywhere/id1404301815?mt=8";
+              }
+          if (getMobileOperatingSystem() == "iOS") {
+              window.location.href = "https://itunes.apple.com/hk/app/tvbanywhere/id1404301815?mt=8";
+              }
+          if (getMobileOperatingSystem() == "unknown") {
+            window.location.href = "https://www.tvbanywhere.com/#download-app";}
       }
   }, 500);
  }
 </script>
-    </body>
+</head>
+<body onload="DetectAndServe()">
+</body>
 </html>
