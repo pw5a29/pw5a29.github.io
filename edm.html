@@ -52,11 +52,11 @@ if(getMobileOperatingSystem() == "Huawei"){
       		window.location.href = "https://apps.apple.com/hk/app/tvbanywhere/id1404301815";
       	},1000);
 }else if(getMobileOperatingSystem() == "iOS"){
-        	window.location.href = app_deep_link;
+        window.location.href = app_deep_link;
 
-        	setTimeout(function(){
-        		window.location.href = "https://apps.apple.com/hk/app/tvbanywhere/id1404301815";
-        	},1000);
+        setTimeout(function(){
+        	window.location.href = "https://apps.apple.com/hk/app/tvbanywhere/id1404301815";
+        },1000);
 }else{
   window.location.href = "https://www.tvbanywhere.com/#download-app";}
 };
