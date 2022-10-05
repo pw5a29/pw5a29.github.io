@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+
+    var screenName = "app open Page";
+
+    var screenLabel = "app/open";
+
+  dataLayer.push({'event': 'scnOpen', 'screenName': screenName, 'screenLabel': screenLabel});
+
+ </script>
+
+<script>
+
+var app_deep_link = 'tvbanywhere://homepage';
+function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/HMSCore/.test(userAgent)) {
+        return "Huawei";
+    }
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+    if (/MacIntel/.test(navigator.platform) && navigator.maxTouchPoints > 2) {
+        return "iPad";
+    }
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return "iOS";
+    }
+
+    return "unknown";
+}
+
+if(getMobileOperatingSystem() == "Huawei"){
+	window.location.href = app_deep_link;
+
+	setTimeout(function(){
+		window.location.href = "https://appgallery.huawei.com/#/app/C102124967";
+	},1000);
+if(getMobileOperatingSystem() == "Android"){
+    	window.location.href = app_deep_link;
+
+    	setTimeout(function(){
+    		window.location.href = "https://play.google.com/store/apps/details?id=com.tvb.ott.overseas.sg";
+    	},1000);
+if(getMobileOperatingSystem() == "iPad"){
+      	window.location.href = app_deep_link;
+
+      	setTimeout(function(){
+      		window.location.href = "https://apps.apple.com/hk/app/tvbanywhere/id1404301815";
+      	},1000);
+if(getMobileOperatingSystem() == "iOS"){
+        	window.location.href = app_deep_link;
+
+        	setTimeout(function(){
+        		window.location.href = "https://apps.apple.com/hk/app/tvbanywhere/id1404301815";
+        	},1000);
+if (getMobileOperatingSystem() == "unknown") {
+  window.location.href = "https://www.tvbanywhere.com/#download-app";}
+};
+</script>
+</body>
+</html>
