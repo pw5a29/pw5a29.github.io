@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2028 日本電單車自駕遊 | Japan Motorcycle Tour</title>
+
+  <!-- Google Fonts: Oswald & Montserrat for sharp motorsport numerals/headings, Noto Sans TC for crisp Traditional Chinese -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,800&family=Noto+Sans+TC:wght@400;500;700;900&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Oswald', 'Montserrat', 'Noto Sans TC', 'sans-serif'],
+            sans: ['Noto Sans TC', 'Montserrat', 'sans-serif'],
+          },
+          colors: {
+            hk: {
+              black: '#0a0a0a',
+              dark: '#121212',
+              card: '#18181b',
+              border: '#27272a',
+              red: '#e62e2d',
+              redHover: '#ff3b30',
+              silver: '#a1a1aa'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Motorsport Styling & Helmet King Aesthetic */
+    body {
+      background-color: #0a0a0a;
+      color: #f4f4f5;
+      background-image:
+        radial-gradient(circle at 50% 0%, rgba(230, 46, 45, 0.12) 0%, transparent 55%),
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 40px 40px, 40px 40px;
+    }
+
+    /* Angled Motorsport Button Clip-Path */
+    .btn-motorsport {
+      clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+      transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .btn-motorsport:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 10px 28px -4px rgba(230, 46, 45, 0.55);
+    }
+
+    /* Diagonal Racing Stripe Accent */
+    .racing-stripe {
+      background: repeating-linear-gradient(
+        -45deg,
+        #e62e2d,
+        #e62e2d 8px,
+        transparent 8px,
+        transparent 16px
+      );
+    }
+
+    /* Faded Honda Fairing Sportbike Behind "26" */
+    /* Faded Honda Fairing Sportbike Behind Hero Title */
+    .hero-bike-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 55%;
+      opacity: 0.62;
+      filter: contrast(1.15) saturate(1.25) brightness(1.08);
+      mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0.25) 95%);
+      -webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0.25) 95%);
+      pointer-events: none;
+      z-index: 0;
+      transition: opacity 0.5s ease, transform 0.6s ease;
+    }
+
+    .hero-header:hover .hero-bike-bg {
+      opacity: 0.72;
+      transform: scale(1.03);
+    }
+
+    .hero-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(10, 10, 10, 0.35) 0%, rgba(10, 10, 10, 0.88) 90%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Region Header Backdrop Image Styling (Bright & Vivid Suburban/Countryside Scenery) */
+    .region-header-box {
+      position: relative;
+      overflow: hidden;
+      border-left: 5px solid #e62e2d;
+      background-color: #18181b;
+    }
+
+    .region-bg-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      opacity: 0.78;
+      filter: contrast(1.08) saturate(1.25) brightness(1.05);
+      transition: transform 0.6s ease, opacity 0.4s ease;
+      z-index: 0;
+    }
+
+    .region-header-box:hover .region-bg-img {
+      transform: scale(1.06);
+      opacity: 0.88;
+    }
+
+    .region-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(10, 10, 10, 0.32) 0%, rgba(10, 10, 10, 0.52) 50%, rgba(10, 10, 10, 0.72) 100%);
+      z-index: 1;
+    }
+
+    /* Video Card Hover Glow */
+    .video-frame-card {
+      background: #141416;
+      border: 1px solid #27272a;
+      transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .video-frame-card:hover {
+      border-color: #e62e2d;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px -10px rgba(230, 46, 45, 0.35);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-hk-red selection:text-white min-h-screen flex flex-col">
+
+  <!-- Top Racing Bar -->
+  <header class="w-full border-b border-zinc-800/90 bg-hk-black/90 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <span class="inline-block w-3 h-6 bg-hk-red -skew-x-12"></span>
+        <span class="font-display font-bold tracking-widest text-sm sm:text-base uppercase text-zinc-200">
+          JAPAN TOURING <span class="text-hk-red">//</span> 2028
+        </span>
+      </div>
+      <div class="hidden sm:flex items-center space-x-6 text-xs font-bold tracking-wider uppercase text-zinc-400">
+        <a href="#shikoku" class="hover:text-white transition-colors">四國 SHIKOKU</a>
+        <span class="text-zinc-700">/</span>
+        <a href="#kyushu" class="hover:text-white transition-colors">九州 KYUSHU</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScdQD1WjmclZ1bGkULKyADnbfTljLVT8HDalGVU97SqD4NXcQ/viewform" target="_blank" rel="noopener noreferrer"
+           class="bg-hk-red hover:bg-hk-redHover text-white px-4 py-1.5 rounded text-xs font-bold tracking-wider transition-colors">
+          有意一齊去 →
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BIG HEADER / HERO SECTION -->
+  <section class="hero-header relative pt-14 pb-16 sm:pt-20 sm:pb-24 px-4 sm:px-6 lg:px-8 border-b border-zinc-800 overflow-hidden">
+    <!-- Bright & Appealing Honda Fairing Sport Motorcycle Background -->
+    <img
+      src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1800&q=85"
+      alt="Honda Fairing Sport Motorcycle"
+      class="hero-bike-bg"
+      onerror="this.style.display='none'"
+    />
+    <div class="hero-vignette"></div>
+
+    <!-- Subtle Decorative Background Slash -->
+    <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-hk-red/10 to-transparent pointer-events-none z-[1]"></div>
+
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <!-- Top Racing Accent Tag -->
+      <div class="inline-flex items-center space-x-2 px-3.5 py-1 mb-4 rounded-full bg-zinc-950/80 backdrop-blur-sm border border-zinc-700/80 text-xs font-bold tracking-[0.25em] uppercase text-zinc-200 shadow">
+        <span class="w-2 h-2 rounded-full bg-hk-red animate-pulse"></span>
+        <span>MOTORCYCLE TOUR</span>
+      </div>
+
+      <!-- 2028 Year Header -->
+      <div class="font-display font-black italic text-5xl sm:text-7xl md:text-8xl tracking-wider text-hk-red leading-none drop-shadow-[0_4px_24px_rgba(0,0,0,0.9)] mb-2 sm:mb-3">
+        2028
+      </div>
+
+      <!-- Main Title: 日本電單車自駕遊 -->
+      <h1 class="font-sans font-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white leading-tight my-3 sm:my-4 select-none drop-shadow-[0_6px_28px_rgba(0,0,0,0.95)]">
+        日本電單車自駕遊
+      </h1>
+
+      <!-- Decorative Motorsport Divider -->
+      <div class="w-36 h-1.5 racing-stripe mx-auto my-6 sm:my-8 rounded-full shadow"></div>
+
+      <!-- Smaller Text Hyperlink to Google Form: 有意一齊去 -->
+      <div class="mt-4 sm:mt-6 flex flex-col items-center justify-center">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScdQD1WjmclZ1bGkULKyADnbfTljLVT8HDalGVU97SqD4NXcQ/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-motorsport group inline-flex items-center space-x-3 bg-hk-red hover:bg-hk-redHover text-white font-bold text-base sm:text-xl px-8 sm:px-12 py-3.5 sm:py-4 tracking-widest uppercase shadow-xl"
+        >
+          <span>有意一齊去</span>
+          <svg class="w-5 h-5 transform group-hover:translate-x-1.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+        <span class="mt-3 text-xs font-medium text-zinc-200 bg-black/50 px-3 py-1 rounded-full backdrop-blur-sm tracking-wider">
+          點擊填寫 Google Form 意向登記表 • 路線及日期共同商議
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN SPLIT SECTION: LEFT (四國) & RIGHT (九州) -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 items-start">
+
+      <!-- ========================================== -->
+      <!-- LEFT COLUMN: 四國 (SHIKOKU)                 -->
+      <!-- ========================================== -->
+      <section id="shikoku" class="bg-hk-dark/90 border border-zinc-800 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl flex flex-col space-y-6">
+
+        <!-- Header 1: 四國 with genuine Shikoku coastal/bridge scenery (Kurushima-Kaikyo Bridge, Ehime / Shimanami Kaido) -->
+        <div class="region-header-box rounded-xl h-40 sm:h-48 flex items-center justify-center px-6 shadow-lg">
+          <img
+            src="https://www.jal.co.jp/nz/en/guide-to-japan/destinations/articles/shikoku/13-best-adventure-travel-activities/_jcr_content/root/responsivegrid/sectioncontainer_cop/image.coreimg.jpeg/1776062016406.jpeg"
+            alt="四國來島海峽大橋風光 Kurushima-Kaikyo Bridge, Ehime, Shikoku"
+            class="region-bg-img"
+            onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://www.jal.co.jp/nz/en/guide-to-japan/destinations/articles/shikoku/13-best-adventure-travel-activities/_jcr_content/root/responsivegrid/sectioncontainer_cop/image.coreimg.jpeg/1776062016406.jpeg';}else{this.style.display='none';}"
+          />
+          <div class="region-overlay"></div>
+          <div class="relative z-10 text-center">
+            <span class="inline-block bg-black/55 backdrop-blur-xs px-3 py-0.5 rounded font-display text-xs sm:text-sm font-bold tracking-[0.35em] text-amber-400 uppercase mb-1.5 shadow">
+              ROUTE OPTION A // SHIKOKU
+            </span>
+            <h1 class="font-sans font-black text-4xl sm:text-5xl md:text-6xl text-white tracking-widest drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
+              四國
+            </h1>
+          </div>
+        </div>
+
+        <!-- Smaller Text: Shikoku Reference Routes -->
+        <div class="space-y-3">
+          <div class="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest text-zinc-400 pb-1 border-b border-zinc-800">
+            <span class="w-2 h-2 bg-hk-red inline-block"></span>
+            <span>參考路線規劃 / SUGGESTED ROUTES</span>
+          </div>
+
+          <div class="bg-hk-card border border-zinc-800/90 hover:border-zinc-700 rounded-xl p-4 transition-colors">
+            <p class="text-sm sm:text-base font-medium text-zinc-100 leading-relaxed">
+              <span class="inline-block bg-hk-red/20 text-hk-red border border-hk-red/40 text-xs font-bold px-2 py-0.5 rounded mr-2">參考路線 1</span>
+              大阪 > 淡路島 > 高知 > 四萬十 > 德島 > 大阪
+            </p>
+          </div>
+
+          <div class="bg-hk-card border border-zinc-800/90 hover:border-zinc-700 rounded-xl p-4 transition-colors">
+            <p class="text-sm sm:text-base font-medium text-zinc-100 leading-relaxed">
+              <span class="inline-block bg-hk-red/20 text-hk-red border border-hk-red/40 text-xs font-bold px-2 py-0.5 rounded mr-2">參考路線 2</span>
+              高松 > 高知 > 四萬十 > 愛媛 > 高松
+            </p>
+          </div>
+        </div>
+
+        <!-- Embedded YouTube Videos (2 Videos for Shikoku) -->
+        <div class="space-y-5 pt-2">
+          <div class="flex items-center justify-between text-xs font-bold uppercase tracking-widest text-zinc-400 pb-1 border-b border-zinc-800">
+            <div class="flex items-center space-x-2">
+              <span class="w-2 h-2 bg-hk-red inline-block"></span>
+              <span>參考影片 / ROUTE VIDEOS (2)</span>
+            </div>
+            <span class="text-zinc-500">SHIKOKU</span>
+          </div>
+
+          <!-- Shikoku Video 1 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/pHP1IGsppKo?si=y2nFajWmB0qRanHC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 01 // 四國路線參考</span>
+              <a href="https://www.youtube.com/watch?v=pHP1IGsppKo" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Shikoku Video 2 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/QqbC61eqtr4"
+                title="四國自駕遊參考影片 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 02 // 四國路線參考</span>
+              <a href="https://www.youtube.com/watch?v=QqbC61eqtr4" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================== -->
+      <!-- RIGHT COLUMN: 九州 (KYUSHU)                 -->
+      <!-- ========================================== -->
+      <section id="kyushu" class="bg-hk-dark/90 border border-zinc-800 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl flex flex-col space-y-6">
+
+        <!-- Header 1: 九州 with genuine Kyushu mountain/caldera scenery (Mount Aso from Daikanbo, Kumamoto, Kyushu) -->
+        <div class="region-header-box rounded-xl h-40 sm:h-48 flex items-center justify-center px-6 shadow-lg">
+          <img
+            src="https://www.travelandleisure.com/thmb/XIhjVL0vdByRrW3K-P_QEJ43lAg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-ocean-temple-rocks-KYUSHU1124-1b24c14de7204c52ab612486eef837c9.jpg"
+            alt="九州阿蘇山大觀峰草原風光 Mount Aso from Daikanbo, Kumamoto, Kyushu"
+            class="region-bg-img"
+            onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://www.travelandleisure.com/thmb/XIhjVL0vdByRrW3K-P_QEJ43lAg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-ocean-temple-rocks-KYUSHU1124-1b24c14de7204c52ab612486eef837c9.jpg';}else{this.style.display='none';}"
+          />
+          <div class="region-overlay"></div>
+          <div class="relative z-10 text-center">
+            <span class="inline-block bg-black/55 backdrop-blur-xs px-3 py-0.5 rounded font-display text-xs sm:text-sm font-bold tracking-[0.35em] text-amber-400 uppercase mb-1.5 shadow">
+              ROUTE OPTION B // KYUSHU
+            </span>
+            <h1 class="font-sans font-black text-4xl sm:text-5xl md:text-6xl text-white tracking-widest drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
+              九州
+            </h1>
+          </div>
+        </div>
+
+        <!-- Smaller Text: Kyushu Reference Routes -->
+        <div class="space-y-3">
+          <div class="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest text-zinc-400 pb-1 border-b border-zinc-800">
+            <span class="w-2 h-2 bg-hk-red inline-block"></span>
+            <span>參考路線規劃 / SUGGESTED ROUTES</span>
+          </div>
+
+          <div class="bg-hk-card border border-zinc-800/90 hover:border-zinc-700 rounded-xl p-4 transition-colors">
+            <p class="text-sm sm:text-base font-medium text-zinc-100 leading-relaxed">
+              <span class="inline-block bg-hk-red/20 text-hk-red border border-hk-red/40 text-xs font-bold px-2 py-0.5 rounded mr-2">參考路線 1</span>
+              福岡 > 久留米 > 長崎 > 熊本 > 阿蘇 > 大分 > 別府 > 福岡
+            </p>
+          </div>
+
+          <div class="bg-hk-card border border-zinc-800/90 hover:border-zinc-700 rounded-xl p-4 transition-colors">
+            <p class="text-sm sm:text-base font-medium text-zinc-100 leading-relaxed">
+              <span class="inline-block bg-hk-red/20 text-hk-red border border-hk-red/40 text-xs font-bold px-2 py-0.5 rounded mr-2">參考路線 2</span>
+              福岡 > 熊本 > 阿蘇 > 福岡
+            </p>
+          </div>
+
+          <div class="bg-hk-card border border-zinc-800/90 hover:border-zinc-700 rounded-xl p-4 transition-colors">
+            <p class="text-sm sm:text-base font-medium text-zinc-100 leading-relaxed">
+              <span class="inline-block bg-hk-red/20 text-hk-red border border-hk-red/40 text-xs font-bold px-2 py-0.5 rounded mr-2">參考路線 3</span>
+              福岡(每晚返福岡) > 系島、由布院、門司港、福津
+            </p>
+          </div>
+        </div>
+
+        <!-- Embedded YouTube Videos (5 Videos for Kyushu) -->
+        <div class="space-y-5 pt-2">
+          <div class="flex items-center justify-between text-xs font-bold uppercase tracking-widest text-zinc-400 pb-1 border-b border-zinc-800">
+            <div class="flex items-center space-x-2">
+              <span class="w-2 h-2 bg-hk-red inline-block"></span>
+              <span>參考影片 / ROUTE VIDEOS (5)</span>
+            </div>
+            <span class="text-zinc-500">KYUSHU</span>
+          </div>
+
+          <!-- Kyushu Video 1 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pHP1IGsppKo?si=uyiAQaIz_YVB0KjO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 01 // 九州路線參考</span>
+              <a href="https://www.youtube.com/watch?v=QxWN9gt3XtE" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Kyushu Video 2 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/rMiEy7ri7uk"
+                title="九州自駕遊參考影片 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 02 // 九州路線參考</span>
+              <a href="https://www.youtube.com/watch?v=rMiEy7ri7uk" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Kyushu Video 3 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/_ssqBo610eU"
+                title="九州自駕遊參考影片 3"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 03 // 九州路線參考</span>
+              <a href="https://www.youtube.com/watch?v=_ssqBo610eU" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Kyushu Video 4 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/an50ZasZC84"
+                title="九州自駕遊參考影片 4"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 04 // 九州路線參考</span>
+              <a href="https://www.youtube.com/watch?v=an50ZasZC84" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Kyushu Video 5 -->
+          <div class="video-frame-card rounded-xl overflow-hidden p-2">
+            <div class="relative w-full aspect-video rounded-lg overflow-hidden bg-black">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/0EfhIBTy__o"
+                title="九州自駕遊參考影片 5"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="px-2 pt-2.5 pb-1 flex items-center justify-between text-xs text-zinc-400">
+              <span class="font-bold text-zinc-300">VIDEO 05 // 九州路線參考</span>
+              <a href="https://www.youtube.com/watch?v=0EfhIBTy__o" target="_blank" rel="noopener noreferrer" class="hover:text-hk-red transition-colors">
+                YouTube 觀看 ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Motorsport Footer -->
+  <footer class="border-t border-zinc-800/90 bg-hk-black py-10 px-4 sm:px-6 lg:px-8 mt-8">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center space-x-3">
+        <span class="inline-block w-2.5 h-5 bg-hk-red -skew-x-12"></span>
+        <span class="font-display font-bold tracking-wider text-zinc-300 uppercase">
+          2028 日本電單車自駕遊
+        </span>
+      </div>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScdQD1WjmclZ1bGkULKyADnbfTljLVT8HDalGVU97SqD4NXcQ/viewform"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-sm font-bold text-hk-red hover:text-hk-redHover underline underline-offset-4 transition-colors"
+      >
+        有意一齊去 (Google Form 報名連結) →
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
